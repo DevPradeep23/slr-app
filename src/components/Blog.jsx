@@ -17,7 +17,7 @@ const Blog = ({ blogsList }) => {
             <div key={list.id} className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className=''>
                 <div className='m-auto'>
-                  <Image width={"1000"} height={"1000"} src={list.image} className='w-full md:h-36' alt='/' />
+                  <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-full md:h-36' alt='/' />
                 </div>
               </div>
               <div className='flex flex-col items-center justify-center my-4'>
