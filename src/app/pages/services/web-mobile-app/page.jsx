@@ -66,7 +66,7 @@ const page = () => {
                     <div className='md:mt-24 mt-8'>
 
                         <div className='md:ml-10'>
-                            <div className='mt-2'>
+                            <div className='mt-20'>
                                 <h1 className='font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
                                     {"Web and Mobile app"}<br />{"Development services"}
                                 </h1>
