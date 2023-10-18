@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Blog = ({ blogsList }) => {
   return (
-    <div id='blog' className='w-full lg:h-screen md:mt-6'>
+    <div id='blog' className='w-full lg:h-screen md:mt-1'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-1xl tracking-widest text-center uppercase text-black'>
           BLOGS
