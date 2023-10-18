@@ -17,7 +17,7 @@ const page = async ({ params }) => {
         <div className='max-w-[1240px] mt-28 w-full mx-auto flex flex-col justify-center h-auto'>
 
           <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <Image width={"0"} height={"0"} src={blogsDataSingle && blogsDataSingle.image} className='w-[100%] md:h-[500px]' alt='/' />
+            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-[100%] md:h-[500px]' alt='/' />
           
             <h2 className='py-4 text-center'>{blogsDataSingle && blogsDataSingle.title}</h2>
           
