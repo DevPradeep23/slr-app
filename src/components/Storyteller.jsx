@@ -4,7 +4,7 @@ import React from 'react';
 const Storyteller = () => {
   return (
     <>
-      <div id='about' className='mx-auto w-full md:py-10 md:-mt-10 bg-no-repeat bg-cover text-center bg-storyteller_img' >
+      <div id='about' className='mx-auto w-full md:py-10 md:-mt-24 bg-no-repeat bg-cover text-center bg-storyteller_img' >
         <div className='md:max-w-[500px] m-auto md:my-16'>
 
             <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">Why Clients Trust Our Expertise and
