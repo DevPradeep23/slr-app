@@ -24,7 +24,7 @@ const Blog = ({ blogsList }) => {
                 <h3>{list.title}</h3>
                 <p className='my-2 text-sm'>{list.short_description}</p>
               </div>
-              <Link href={`pages/blogs/${list.slug}`} className=' text-sm'>Read More...</Link>
+              <Link href={`blogs/${list.slug}`} className=' text-sm'>Read More...</Link>
             </div>
           ))
           }
