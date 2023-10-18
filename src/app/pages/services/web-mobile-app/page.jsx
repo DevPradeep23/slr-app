@@ -5,26 +5,26 @@ import { BsPlusCircleFill } from 'react-icons/bs'
 const page = () => {
 
     const services = [
-        { name: "Increased Efficiency", imageUrl: "../public/assets/images/home-banner/increased-eff.png" },
-        { name: "Brand Recognition", imageUrl: "../public/assets/images/home-banner/brand-recognition.png" },
-        { name: "Enhanced Productivity", imageUrl: "../public/assets/images/home-banner/enhanched-product.png" },
-        { name: "Customer Engagement", imageUrl: "../public/assets/images/home-banner/Customer Engagement.png" },
-        { name: "Cost Savings", imageUrl: "../public/assets/images/home-banner/cost-saving.png" },
-        { name: "Analytics and Insights", imageUrl: "../public/assets/images/home-banner/Analytics and Insights.png" },
-        { name: "Competitive Advantage", imageUrl: "../public/assets/images/home-banner/Competitive Advantage.png" },
-        { name: "Offline Access", imageUrl: "../public/assets/images/home-banner/Offline Access.png" },
-        { name: "Scalability", imageUrl: "../public/assets/images/home-banner/Scalability.png" },
-        { name: "Integration", imageUrl: "../public/assets/images/home-banner/Integration.png" },
-        { name: "Improved Customer Experience", imageUrl: "../public/assets/images/home-banner/Improved Customer Experience.png" },
-        { name: "Faster Updates", imageUrl: "../public/assets/images/home-banner/Faster Updates.png" },
-        { name: "Real-time Data Access", imageUrl: "../public/assets/images/home-banner/Real-time Data Access.png" },
-        { name: "Custom Features", imageUrl: "../public/assets/images/home-banner/Custom Features.png" },
-        { name: "Data Security", imageUrl: "../public/assets/images/home-banner/Data Security.png" },
-        { name: "Customer Loyalty", imageUrl: "../public/assets/images/home-banner/Customer Loyalty.png" },
-        { name: "Compatibility", imageUrl: "../public/assets/images/home-banner/Compatibility.png" },
-        { name: "Marketing Opportunities", imageUrl: "../public/assets/images/home-banner/Marketing Opportunities.png" },
-        { name: "Revenue Generation", imageUrl: "../public/assets/images/home-banner/Revenue Generation.png" },
-        { name: "Compliance", imageUrl: "../public/assets/images/home-banner/Compliance.png" },
+        { name: "Increased Efficiency", imageUrl: "/assets/images/home-banner/increased-eff.png" },
+        { name: "Brand Recognition", imageUrl: "/assets/images/home-banner/brand-recognition.png" },
+        { name: "Enhanced Productivity", imageUrl: "/assets/images/home-banner/enhanched-product.png" },
+        { name: "Customer Engagement", imageUrl: "/assets/images/home-banner/Customer Engagement.png" },
+        { name: "Cost Savings", imageUrl: "/assets/images/home-banner/cost-saving.png" },
+        { name: "Analytics and Insights", imageUrl: "/assets/images/home-banner/Analytics and Insights.png" },
+        { name: "Competitive Advantage", imageUrl: "/assets/images/home-banner/Competitive Advantage.png" },
+        { name: "Offline Access", imageUrl: "/assets/images/home-banner/Offline Access.png" },
+        { name: "Scalability", imageUrl: "/assets/images/home-banner/Scalability.png" },
+        { name: "Integration", imageUrl: "/assets/images/home-banner/Integration.png" },
+        { name: "Improved Customer Experience", imageUrl: "/assets/images/home-banner/Improved Customer Experience.png" },
+        { name: "Faster Updates", imageUrl: "/assets/images/home-banner/Faster Updates.png" },
+        { name: "Real-time Data Access", imageUrl: "/assets/images/home-banner/Real-time Data Access.png" },
+        { name: "Custom Features", imageUrl: "/assets/images/home-banner/Custom Features.png" },
+        { name: "Data Security", imageUrl: "/assets/images/home-banner/Data Security.png" },
+        { name: "Customer Loyalty", imageUrl: "/assets/images/home-banner/Customer Loyalty.png" },
+        { name: "Compatibility", imageUrl: "/assets/images/home-banner/Compatibility.png" },
+        { name: "Marketing Opportunities", imageUrl: "/assets/images/home-banner/Marketing Opportunities.png" },
+        { name: "Revenue Generation", imageUrl: "/assets/images/home-banner/Revenue Generation.png" },
+        { name: "Compliance", imageUrl: "/assets/images/home-banner/Compliance.png" },
     ];
 
     const DigitalServices = [
@@ -42,19 +42,19 @@ const page = () => {
     ];
 
     const StreamlinedDevelopment = [
-        { name: "Product Ideation", imageUrl: "../public/assets/images/home-banner/Product Ideation.png" },
-        { name: "Product Design", imageUrl: "../public/assets/images/home-banner/Product Design.png" },
-        { name: "Project Management", imageUrl: "../public/assets/images/home-banner/Project Management.png" },
-        { name: "DevOps", imageUrl: "../public/assets/images/home-banner/DevOps.png" },
-        { name: "Quality Assurance (QA)", imageUrl: "../public/assets/images/home-banner/Quality Assurance (QA).png" },
-        { name: "IT Staff Augmentation", imageUrl: "../public/assets/images/home-banner/IT Staff Augmentation.png" },
+        { name: "Product Ideation", imageUrl: "/assets/images/home-banner/Product Ideation.png" },
+        { name: "Product Design", imageUrl: "/assets/images/home-banner/Product Design.png" },
+        { name: "Project Management", imageUrl: "/assets/images/home-banner/Project Management.png" },
+        { name: "DevOps", imageUrl: "/assets/images/home-banner/DevOps.png" },
+        { name: "Quality Assurance (QA)", imageUrl: "/assets/images/home-banner/Quality Assurance (QA).png" },
+        { name: "IT Staff Augmentation", imageUrl: "/assets/images/home-banner/IT Staff Augmentation.png" },
     ];
 
     const cuttingAdege = [
-        { name: "Programming Languages", content: "Our expert developers are fluent in a multitude of programming languages Python, JavaScript, Java, C, C# and PHP, tailoring each project to the language best suited for optimal performance and functionality.", imageUrl: "../public/assets/images/home-banner/programming-languages.png" },
-        { name: "Mobile App Development Frameworks", content: "With cutting-edge frameworks like React Native and Flutter, we create cross-platform apps that seamlessly operate on various devices, reducing development time and costs.", imageUrl: "../public/assets/images/home-banner/mobile-app-development-frameworks.png" },
-        { name: "Web Development Technologies", content: "Utilizing HTML5, CSS3, and dynamic JavaScript libraries, we design interactive and visually stunning web applications that captivate users and drive engagement.", imageUrl: "../public/assets/images/home-banner/web-development-technologies.png" },
-        { name: "Database Management Systems", content: "From traditional databases like MySQL to NoSQL solutions like MongoDB, we employ a wide spectrum of database systems, ensuring data is efficiently stored.", imageUrl: "../public/assets/images/home-banner/database-management.png" },
+        { name: "Programming Languages", content: "Our expert developers are fluent in a multitude of programming languages Python, JavaScript, Java, C, C# and PHP, tailoring each project to the language best suited for optimal performance and functionality.", imageUrl: "/assets/images/home-banner/programming-languages.png" },
+        { name: "Mobile App Development Frameworks", content: "With cutting-edge frameworks like React Native and Flutter, we create cross-platform apps that seamlessly operate on various devices, reducing development time and costs.", imageUrl: "/assets/images/home-banner/mobile-app-development-frameworks.png" },
+        { name: "Web Development Technologies", content: "Utilizing HTML5, CSS3, and dynamic JavaScript libraries, we design interactive and visually stunning web applications that captivate users and drive engagement.", imageUrl: "/assets/images/home-banner/web-development-technologies.png" },
+        { name: "Database Management Systems", content: "From traditional databases like MySQL to NoSQL solutions like MongoDB, we employ a wide spectrum of database systems, ensuring data is efficiently stored.", imageUrl: "/assets/images/home-banner/database-management.png" },
     ];
 
     return (
@@ -94,7 +94,7 @@ const page = () => {
                         </p>
 
                         <div className="rounded-lg">
-                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"/assets/images/home-banner/mobile-app-1.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"../../assets/images/home-banner/mobile-app-1.png"} alt='/' />
                         </div>
 
                     </div>
@@ -147,7 +147,7 @@ const page = () => {
                         <h2 className="font-bold md:text-2xl text-2xl text-[#152C4E]">Innovative Digital Solutions for You</h2>
 
                         <div className="rounded-lg flex justify-center mt-20">
-                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"/assets/images/home-banner/services-3.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"../../assets/images/home-banner/services-3.png"} alt='/' />
                         </div>
 
                     </div>
@@ -197,7 +197,7 @@ const page = () => {
                         <h2 className="font-bold md:text-xl text-2xl text-[#152C4E] text-left">{`Leveraging Cutting-Edge Technologies for Software and Mobile App`}
                             <br /> Development</h2>
                         <div className="rounded-lg md:mt-10">
-                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"/assets/images/home-banner/services-4.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"../../assets/images/home-banner/services-4.png"} alt='/' />
                         </div>
 
                     </div>
