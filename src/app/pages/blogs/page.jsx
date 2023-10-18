@@ -25,7 +25,7 @@ const page = async () => {
                           <div key={list.id} className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                               <div className=''>
                                   <div className='m-auto'>
-                                      <Image width={"0"} height={"0"} src={list.image} className='w-full' alt='/' />
+                                      <Image width={"0"} height={"0"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-full' alt='/' />
                                   </div>
                               </div>
                               <div className='flex flex-col items-center justify-center my-4'>
