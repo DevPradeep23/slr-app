@@ -1,6 +1,6 @@
 export const MenuList = [
   { name: "Home", link: "/", icon: "" },
-  { name: "About", link: "/", icon: "" },
+  { name: "About", link: "/pages/about", icon: "" },
   {
     name: "Services",
     link: "#",
