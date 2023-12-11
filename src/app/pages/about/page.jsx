@@ -33,7 +33,7 @@ export default function about() {
          title: "Web Development", imageUrl: "/assets/images/home-banner/web-development.png", description: "Crafting innovative web applications for improved user experience and digital interaction."
       },
       {
-         title: "Digital Marketing", imageUrl: "/assets/images/home-banner/digital-marketing.png", description: `Implementing strategic digital marketing campaigns for impactful brand presence and customer engagement`
+         title: "Digital Marketing", imageUrl: "/assets/images/home-banner/home-banner-1.png", description: `Implementing strategic digital marketing campaigns for impactful brand presence and customer engagement`
       },
       {
          title: "EdTech Solutions", imageUrl: "/assets/images/home-banner/edtech.png", description: ` Offering cutting-edge educational technology solutions to transform learning experiences and educational outcomes.`
