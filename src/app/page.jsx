@@ -42,7 +42,7 @@ export default async function Home() {
                         </h2>
 
                         <div className='flex justify-center mb-4'>
-                           <Image src={"../../assets/images/4pillar.png"} width='250' height='300' alt='/' />
+                           <Image src={"/assets/images/4pillar.png"} width='250' height='300' alt='/' />
                         </div>
                      </div>
 
