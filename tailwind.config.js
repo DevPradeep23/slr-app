@@ -83,7 +83,9 @@ module.exports = {
           "url('../../public/assets/images/home-banner/website-builder.png')",
           
         web_mobile_app:
-          "url('../../public/assets/images/home-banner/web-mobile-app.png')",   
+          "url('../../public/assets/images/home-banner/web-mobile-app.png')",  
+        about_us:
+          "url('../../public/assets/images/home-banner/about-us.png')",
 
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
