@@ -104,7 +104,7 @@ export default async function Home() {
                               <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
                                  <div className="p-4">
                                     <div className='flex justify-center'>
-                                       <Image src={"../../assets/images/Icon3.png"}width='1000' height='1000' className='w-10' alt='/' />
+                                       <Image src={"../../assets/images/icon3.png"}width='1000' height='1000' className='w-10' alt='/' />
                                     </div>
                                     <p className="text-[14px] p-2 text-center font-semibold">{"Experience"}</p>
                                  </div>
@@ -129,7 +129,7 @@ export default async function Home() {
                               <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
                                  <div className="p-4">
                                     <div className='flex justify-center'>
-                                       <Image src={"../../assets/images/Icon4.png"} width='1000' height='1000' className='w-8' alt='/' />
+                                       <Image src={"../../assets/images/icon4.png"} width='1000' height='1000' className='w-8' alt='/' />
                                     </div>
                                     <p className="text-[14px] p-2 text-center font-semibold">{"Strategic Vision"}</p>
                                  </div>
