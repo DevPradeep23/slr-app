@@ -33,7 +33,7 @@ const Storyteller = () => {
           </div>
 
           <div className="rounded-lg flex justify-center">
-            <Image width={"1000"} height={"1000"} src={"../assets/images/sap-partner.png"} className='md:w-[50%] md:h-[50%] md:mt-10' alt='/' />
+            <Image width={"1000"} height={"1000"} src={"/assets/images/sap-partner.png"} className='md:w-[50%] md:h-[50%] md:mt-10' alt='/' />
           </div>
 
        </div>
