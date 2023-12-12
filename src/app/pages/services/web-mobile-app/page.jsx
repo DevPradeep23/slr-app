@@ -94,7 +94,7 @@ const page = () => {
                         </p>
 
                         <div className="rounded-lg">
-                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"../../assets/images/home-banner/mobile-app-1.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"/assets/images/home-banner/mobile-app-1.png"} alt='/' />
                         </div>
 
                     </div>
@@ -147,7 +147,7 @@ const page = () => {
                         <h2 className="font-bold md:text-2xl text-2xl text-[#152C4E]">Innovative Digital Solutions for You</h2>
 
                         <div className="rounded-lg flex justify-center mt-20">
-                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"../../assets/images/home-banner/services-3.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"/assets/images/home-banner/services-3.png"} alt='/' />
                         </div>
 
                     </div>
@@ -197,7 +197,7 @@ const page = () => {
                         <h2 className="font-bold md:text-xl text-2xl text-[#152C4E] text-left">{`Leveraging Cutting-Edge Technologies for Software and Mobile App`}
                             <br /> Development</h2>
                         <div className="rounded-lg md:mt-10">
-                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"../../assets/images/home-banner/services-4.png"} alt='/' />
+                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"/assets/images/home-banner/services-4.png"} alt='/' />
                         </div>
 
                     </div>
