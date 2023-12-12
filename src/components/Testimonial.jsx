@@ -70,7 +70,7 @@ const Testimonial = () => {
               return (
 
                 <SwiperSlide className='' key={index}>
-                  <div className='bg-gradient-to-t from-gray-50 to-[#68fef6] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2 w-fit h-auto'>
+                  <div className='bg-white shadow-md-2 hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2 w-fit h-auto'>
                     
                     <p className='py-2 text-gray-900 text-[12px] text-justify p-2'>
                       {option.description}
