@@ -6,7 +6,7 @@ import NavLogo from '/public/assets/images/logo.png'
 const Storyteller = () => {
   return (
     <>
-      <div id='about' className='mx-auto md:p-4 w-full bg-no-repeat bg-cover text-center md:bg-[#68fef6] md:my-20 ' >
+      <div id='about' className='mx-auto md:p-4 w-full bg-no-repeat bg-cover text-center md:bg-[#a3f1ee] md:my-20 ' >
        
        <div className='grid grid-cols-3'>
 
