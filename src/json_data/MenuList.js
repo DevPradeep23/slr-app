@@ -1,6 +1,6 @@
 export const MenuList = [
   { name: "Home", link: "/", icon: "" },
-  { name: "About", link: "/pages/about", icon: "" },
+  { name: "About", link: "/about", icon: "" },
   {
     name: "Services",
     link: "#",
@@ -9,12 +9,12 @@ export const MenuList = [
     submenu: [
       {
         name: "Digital Marketing",
-        link: "/pages/services/digital-marketing",
+        link: "/services/digital-marketing",
         icon: "",
       },
       {
         name: "Web and App Development",
-        link: "/pages/services/web-mobile-app",
+        link: "/services/web-mobile-app",
         icon: "",
       },
     ],
@@ -28,12 +28,12 @@ export const MenuList = [
     submenu: [
       {
         name: "SAP Tool",
-        link: "/pages/products",
+        link: "/products",
         icon: "",
       },
       {
         name: "Edumatic",
-        link: "/pages/products/integrated-school",
+        link: "/products/integrated-school",
         icon: "",
       },
     ],
