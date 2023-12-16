@@ -7,10 +7,10 @@ const Page = () => {
   const [openTab, setOpenTab] = useState(1);
 
   const productForInstitude = [
-    { name: "Fee Management", link: "fee-management" },
-    { name: "Admission Management", link: "admission-management" },
-    { name: "Classroom Management", link: "classroom-management" },
-    { name: "School Yearly Calendar Planner", link: "integrated-school" },
+    { name: "Fee Management", link: "/fee-management" },
+    { name: "Admission Management", link: "/admission-management" },
+    { name: "Classroom Management", link: "/classroom-management" },
+    { name: "School Yearly Calendar Planner", link: "/integrated-school" },
     { name: "Roles & Permissions", link: "/" },
     { name: "Attendance Management", link: "/" },
     { name: "Exam Planner", link: "/" },
