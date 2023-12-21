@@ -5,7 +5,7 @@ const nextConfig = {
   //   unoptimized: true,
   // }
 //   basePath: "",
-//   output: "standalone",
+  output: "standalone",
 //   experimental: {
 //   appDir: true,
 // },
