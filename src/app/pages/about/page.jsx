@@ -56,7 +56,7 @@ const page = () => {
                            {"Welcome to SLRIS,"}<br />
                         </h1>
 
-                        <TypeAnimation className="text-3xl sm:text-2xl md:text-3xl font-[Raleway] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]"
+{/*                         <TypeAnimation className="text-3xl sm:text-2xl md:text-3xl font-[Raleway] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]"
                            // Same String at the start will only be typed once, initially
                            sequence={[
                               500, // wait 1s before replacing "Mice" with "Hamsters"
@@ -69,7 +69,7 @@ const page = () => {
                            cursor={true}
                            // style={{ fontSize: '2em', display: 'inline-block' }}
                            repeat={Infinity}
-                        />
+                        /> */}
 
 
 
