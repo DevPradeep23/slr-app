@@ -161,7 +161,7 @@ export default function about() {
                      {portfolioSpectrum && portfolioSpectrum.map((list, index) => (
                         <div key={index} className='bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:border-[#75EAE2] border-2'>
                            <div className='m-auto'>
-                              <Image width={"1000"} height={"1000"} src={list.imageUrl} className='w-18 md:h-18' alt='/' />
+                              <Image width={"1000"} height={"1000"} src={list.imageUrl} className='w-18 md:h-18' alt={list.title} />
                            </div>
                            <div className='flex flex-col items-center justify-center my-4'>
                               <h3>{list.title}</h3>
@@ -265,9 +265,7 @@ export default function about() {
                         <Image width={"1000"} height={"1000"} src={"/assets/images/joinus.png"} className='md:mt-20 w-[120px] h-[210px]' alt='/' />
                      </div>
 
-                     {/* <div className=''>
-                        <Image width={"90"} height={"115"} src={"/assets/images/arrow5.png"} className='object-cover' alt='/' />
-                     </div> */}
+             
                   </div>
                </div>
             </div>
