@@ -4,7 +4,7 @@ const nextConfig = {
   // images: {
   //   unoptimized: true,
   // }
-  basePath: "https://slr-app.vercel.app",
+  basePath: "",
   output: "standalone",
   experimental: {
   appDir: true,
