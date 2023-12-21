@@ -4,7 +4,7 @@ import { BsPlusCircleFill } from 'react-icons/bs';
 import { FaArrowRight, FaCheck } from "react-icons/fa6";
 import { TypeAnimation } from 'react-type-animation'
 
-export default function about() {
+const page = () => {
 
    const visionMission = [
       {
