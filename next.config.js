@@ -6,6 +6,7 @@ const nextConfig = {
   // }
 //   basePath: "",
   output: "standalone",
+  dynamic = false
 //   experimental: {
 //   appDir: true,
 // },
