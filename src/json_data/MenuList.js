@@ -39,6 +39,6 @@ export const MenuList = [
     ],
   },
   // { name: "Contact Us", link: "/", icon: "" },
-  { name: "Clients", link: "/", icon: "" },
+  // { name: "Clients", link: "/", icon: "" },
   // { name: "Get in Touch", link: "/", icon: "", margin: false },
 ];
