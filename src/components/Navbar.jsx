@@ -51,7 +51,7 @@ const Navbar = () => {
             {
               MenuList?.map((menu, i) => (
                 <div key={menu.name} className='md:mb-1'>
-                  
+
                   <li className='w-1/3 border border-[#75EAE2] border-b-2 border-l-0 border-r-0 border-t-0 flex mx-5 text-[15px]'>
                     <Link href={menu?.link} onClick={() => setSubMenuOpen(subMenuOpen !== menu.name ? menu.name : "")} className='capitalize'>{menu?.name}</Link>
 
@@ -68,7 +68,7 @@ const Navbar = () => {
                     <div className='absolute z-50 bg-white divide-y md:mt-2 divide-gray-100 rounded-lg shadow w-auto dark:bg-gray-700'>
                       <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
                         {menu.submenu.map((subMenuItem, idx) => (
-                          <li key={subMenuItem.name} onClick={() => setSubMenuOpen(subMenuOpen == menu.name ? !subMenuOpen : subMenuOpen) }>
+                          <li key={subMenuItem.name} onClick={() => setSubMenuOpen(subMenuOpen == menu.name ? !subMenuOpen : subMenuOpen)}>
                             <Link href={subMenuItem.link}
                               className={` ${menu?.margin && "my-2"} block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white`}
                             >
@@ -105,31 +105,16 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {/* Overlay */}
-      <div
-        className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
-        }
-      >
+      <div className={nav ? 'md:hidden fixed left-0 top-0 bottom-0 w-full bg-black/70' : ''}>
         {/* Side Drawer Menu */}
-        <div
-          className={
-            nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
-          }
-        >
+        <div className={nav ? 'fixed left-0 top-0 bottom-0 w-[75%] sm:w-[60%] md:w-[45%] bg-white p-10 ease-in duration-500'
+          : 'fixed left-[-100%] top-0 p-10 bottom-0 ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
-                <Image
-                  src={NavLogo}
-                  width='87'
-                  height='35'
-                  alt='/'
-                />
+                <Image src={NavLogo} width='87' height='35' alt='/' />
               </Link>
-              <div
-                onClick={handleNav}
+              <div onClick={handleNav}
                 className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
               >
                 <AiOutlineClose />
@@ -147,28 +132,28 @@ const Navbar = () => {
                         {list?.name}
                       </Link>
 
-                      {/* {list.submenu && (
-                        <span onClick={() => setSubMenuOpen(!subMenuOpen !== list.name ? list.name : "")}
-                          className={`${subMenuOpen && 'rotate-180'} duration-200 text-xl md:block group-hover:rotate-180`}>
+                      {list.submenu && (
+                        <span onClick={() => setSubMenuOpen(subMenuOpen !== list.name ? list.name : "")}
+                          className={`${subMenuOpen && subMenuOpen === list.name && list.submenu ? 'rotate-180' : ''} duration-200 text-xl md:mt-1 md:ml-0 group-hover:rotate-180 group-hover:-mt-2`}>
                           <RiArrowDropDownFill name="chevron-down"></RiArrowDropDownFill>
                         </span>
-                      )} */}
+                      )}
                     </li>
 
                     {subMenuOpen && subMenuOpen === list.name && list.submenu && (
-                      <div className='absolute z-50 bg-white divide-y md:mt-2 divide-gray-100 rounded-lg shadow w-auto dark:bg-gray-700'>
+                      // <div className='absolute z-50 bg-white divide-y md:mt-2 divide-gray-100 rounded-lg shadow w-auto dark:bg-gray-700'>
                         <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
                           {list.submenu.map((subMenuItem, idx) => (
-                            <li key={subMenuItem.name}>
+                            <li className='ease-in-out duration-300' key={subMenuItem.name} onClick={() => setSubMenuOpen(subMenuOpen == subMenuItem.name ? !subMenuOpen : subMenuOpen)}>
                               <Link href={subMenuItem.link}
-                                className={` ${list?.margin && "my-2"} block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white`}
+                                className={` ${list?.margin && "my-2"} ease-in-out duration-300 block ml-4 text-md py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white`}
                               >
                                 {subMenuItem.name}
                               </Link>
                             </li>
                           ))}
                         </ul>
-                      </div>
+                      // </div>
                     )}
 
                   </div>
@@ -188,7 +173,7 @@ const Navbar = () => {
 
             </div>
 
-            <div className='pt-40'>
+            <div className='md:pt-40'>
               <p className='capitalize tracking-widest text-[#5651e5]'>
                 Let&#39;s Connect
               </p>

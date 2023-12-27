@@ -12,9 +12,9 @@ const Contact = () => {
         <div className='grid lg:grid-cols-2 gap-8'>
           {/* left */}
 
-          <div className='max-w-[200px] md:mt-0'>
+          <div className='md:max-w-[200px]'>
 
-            <h2 className='py-2 text-xl text-[#152C4E]'>In a rush? <br />
+            <h2 className='py-2 px-2 text-xl text-[#152C4E]'>In a rush? <br />
               Get a call from our
               industry experts
             </h2>
@@ -23,7 +23,7 @@ const Contact = () => {
 
           {/* right */}
           <div className='col-span-1 w-full h-auto rounded-sm lg:p-4'>
-            <div className='p-4'>
+            <div className='p-2'>
               <form action='#' method='#' encType='multipart/form-data'
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full'>

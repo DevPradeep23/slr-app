@@ -18,18 +18,18 @@ const Main = ({ bannerBg, bgTitle, bgTitle1, bgTitle2, content, type, className,
             {type && type == 1 || type == 2 ?
             
             <div className='md:ml-10'>
-                <div className='mt-2'>
-                  <h2 className='text-[#152C4E]'>
+                <div className='md:mt-2 mt-5'>
+                  <h2 className='text-[#152C4E] md:text-4xl text-2xl'>
                     {bgTitle} <span className='text-[#152C4E]'> {bgTitle1} </span>
                   </h2>
-                  <h2 className='py-2 text-[#152C4E] md:ml-48'>{bgTitle2}</h2>
-                  <p className='py-4 text-[#202124] sm:max-w-[70%] m-auto font-inter font-semibold text-[14px]'>
+                  <h2 className='md:py-2 text-[#152C4E] md:ml-48 md:text-4xl text-2xl'>{bgTitle2}</h2>
+                  <p className='md:py-4 text-[#202124] sm:max-w-[70%] m-auto font-inter font-semibold md:text-[14px]'>
                     {content}
                   </p>
                 </div>
 
                 {type && type == 1 &&
-                  <div className="flex items-center justify-between mt-40 max-w-[330px] m-auto py-2 md:mt-16 bg-white shadow md:ml-[80px]">
+                  <div className="hidden md:flex items-center justify-between md:mt-40 max-w-[330px] m-auto py-2 bg-white shadow md:ml-[80px]">
                     <Image src={AdvertiseLogo} className="object-cover md:h-20 h-20 md:w-32 md:rounded-none ml-2" alt='/' />
                     <div className="flex flex-col justify-between leading-normal">
                       

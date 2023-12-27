@@ -6,12 +6,12 @@ import NavLogo from '/public/assets/images/logo.png'
 const Storyteller = () => {
   return (
     <>
-      <div id='about' className='mx-auto md:p-4 w-full bg-no-repeat bg-cover text-center md:bg-[#a3f1ee] md:my-20 ' >
+      <div id='about' className='mx-auto md:p-4 w-full bg-no-repeat bg-cover text-center md:bg-[#a3f1ee] md:my-20 my-10 px-4'>
        
-       <div className='grid grid-cols-3'>
+        <div className='md:grid md:grid-cols-3 grid-cols-1'>
 
           <div className="rounded-lg flex justify-center">
-            <Image width={"1000"} height={"1000"} src={NavLogo} className='md:w-[50%] md:h-[30%] md:mt-16' alt='/' />
+            <Image width={"1000"} height={"1000"} src={NavLogo} className='md:w-[50%] md:h-[30%] w-full object-fill md:mt-16' alt='/' />
           </div>
 
           <div className='md:max-w-[500px]'>
@@ -33,7 +33,7 @@ const Storyteller = () => {
           </div>
 
           <div className="rounded-lg flex justify-center">
-            <Image width={"1000"} height={"1000"} src={"/assets/images/sap-partner.png"} className='md:w-[50%] md:h-[50%] md:mt-10' alt='/' />
+            <Image width={"1000"} height={"1000"} src={"/assets/images/sap-partner.png"} className='md:w-[50%] md:h-[50%] w-full object-fill md:mt-10' alt='/' />
           </div>
 
        </div>
