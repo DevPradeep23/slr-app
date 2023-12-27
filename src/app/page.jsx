@@ -19,144 +19,141 @@ export default function Home() {
             bgTitle2={"and Marketing"}
             content={"Transform Your Vision into Reality with Our Expertise and Exceptional Services."}
             type={1}
-            className={"md:h-screen md:bg-hero_bg_image md:w-full h-[250px] bg-cover bg-center bg-no-repeat bg-mobile_hero_bg_image"}
+            className={"md:h-screen md:bg-hero_bg_image md:w-full h-[250px] bg-cover bg-center bg-no-repeat bg-hero_bg_image"}
             buttonContent={"Schedule a Call Now"}
          />
 
-         <section className="mb-2 my-20">
-            <div className="container mx-auto">
+         <section className="container mx-auto mb-2 my-20">
 
-                  <div className="flex flex-wrap">
+            <div className="flex flex-wrap">
 
-                     <div className="mx-auto max-w-[100%] text-center">
-                        <h2 className="font-bold md:text-4xl text-2xl text-[#202124] mb-[50px] text-left ml-8">How <span className='text-[#F05108]'>We</span> differ?
-                        </h2>
+               <div className="mx-auto max-w-[100%] text-center">
+                  <h2 className="font-bold md:text-4xl text-2xl text-[#202124] md:mb-[50px] text-left ml-8">How <span className='text-[#F05108]'>We</span> differ?
+                  </h2>
 
-                        <div className='flex justify-center mb-4'>
-                           <Image src={"/assets/images/4pillar.png"} width='250' height='300' alt='/' />
-                        </div>
-                     </div>
+                  <div className='md:flex justify-center mb-4'>
+                     <Image src={"/assets/images/4pillar.png"} width='250' height='300' alt='/' />
+                  </div>
+               </div>
 
-                  <div className="grid grid-cols-4 justify-center m-auto">
+               <div className="grid md:grid-cols-4 grid-cols-2 justify-center m-auto">
 
-                     <div className="w-full px-4 ">
-                        <div className="mb-8 rounded-[200px] bg-white ">
+                  <div className="w-full px-4 ">
+                     <div className="mb-8 rounded-[200px] bg-white ">
 
-                           <div className='flex justify-center md:h-[110px]'>
-                              <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-                                 <div className="p-4">
-                                    <div className='flex justify-center'>
-                                       <Image src={"/assets/images/Icon1.png"} width='1000' height='1000' className='w-10' alt='/' />
-                                    </div>
-                                    <p className="text-[14px] p-2 text-center font-semibold">{"Customer Centric"}</p>
+                        <div className='flex justify-center md:h-[110px]'>
+                           <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+                              <div className="p-4">
+                                 <div className='flex justify-center'>
+                                    <Image src={"/assets/images/Icon1.png"} width='1000' height='1000' className='w-10' alt='/' />
                                  </div>
+                                 <p className="text-[14px] p-2 text-center font-semibold">{"Customer Centric"}</p>
                               </div>
                            </div>
-
-                           <p className="text-body-color text-xs mt-4 text-justify">
-                              We pride ourselves in customer success
-                              stories and drive to establish long term
-                              relationships. Our engagements
-                              typically lead us to become trusted
-                              advisors to our clients with 100%
-                              customer satisfaction.
-                           </p>
                         </div>
+
+                        <p className="text-body-color text-xs mt-4 text-justify">
+                           We pride ourselves in customer success
+                           stories and drive to establish long term
+                           relationships. Our engagements
+                           typically lead us to become trusted
+                           advisors to our clients with 100%
+                           customer satisfaction.
+                        </p>
                      </div>
+                  </div>
 
-                     <div className="w-full px-4">
-                        <div className="mb-8 rounded-[20px] bg-white">
+                  <div className="w-full px-4">
+                     <div className="mb-8 rounded-[20px] bg-white">
 
-                           <div className='flex justify-center md:h-[110px]'>
-                              <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-                                 <div className="p-4">
-                                    <div className='flex justify-center'>
-                                       <Image src={"/assets/images/Icon2.png"} width='1000' height='1000' className='w-10' alt='/' />
-                                    </div>
-                                    <p className="text-[14px] p-2 text-center font-semibold">{"Risk Management"}</p>
+                        <div className='flex justify-center md:h-[110px]'>
+                           <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+                              <div className="p-4">
+                                 <div className='flex justify-center'>
+                                    <Image src={"/assets/images/Icon2.png"} width='1000' height='1000' className='w-10' alt='/' />
                                  </div>
+                                 <p className="text-[14px] p-2 text-center font-semibold">{"Risk Management"}</p>
                               </div>
                            </div>
+                        </div>
 
-                           <p className="text-body-color text-xs mt-4 text-justify">
-                              {` We perform quarterly independent
+                        <p className="text-body-color text-xs mt-4 text-justify">
+                           {` We perform quarterly independent
                                  reviews of the solutions (Services and
                                  products) we deliver along with the
                                  health of project/services and
                                  recommend mitigation plans.`}
-                           </p>
-                        </div>
+                        </p>
                      </div>
-
-                     <div className="w-full px-4">
-                        <div className="mb-8 rounded-[20px] bg-white">
-
-                           <div className='flex justify-center md:h-[110px]'>
-                              <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-                                 <div className="p-4">
-                                    <div className='flex justify-center'>
-                                       <Image src={"/assets/images/icon3.png"}width='1000' height='1000' className='w-10' alt='/' />
-                                    </div>
-                                    <p className="text-[14px] p-2 text-center font-semibold">{"Experience"}</p>
-                                 </div>
-                              </div>
-                           </div>
-
-                           <p className="text-body-color text-xs mt-4 text-justify">
-                              With deep industry knowledge
-                              experience in both products and
-                              services; we use a “Why NOT"
-                              approach to align with leading
-                              practices, processes, and system
-                              designs.
-                           </p>
-                        </div>
-                     </div>
-
-                     <div className="w-full px-4">
-                        <div className="mb-8 rounded-[20px] bg-white">
-
-                           <div className='flex justify-center md:h-[110px]'>
-                              <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
-                                 <div className="p-4">
-                                    <div className='flex justify-center'>
-                                       <Image src={"/assets/images/icon4.png"} width='1000' height='1000' className='w-8' alt='/' />
-                                    </div>
-                                    <p className="text-[14px] p-2 text-center font-semibold">{"Strategic Vision"}</p>
-                                 </div>
-                              </div>
-                           </div>
-
-                           <p className="text-body-color text-xs mt-4 text-justify">
-                              We invest in solutions that are geared
-                              towards market trends, the latest
-                              technologies, and products. We bring in
-                              a balanced approach to look at current
-                              market trends and future releases of our products and services to align with the current requirements.
-                           </p>
-                        </div>
-                     </div>
-
                   </div>
-               </div>
 
+                  <div className="w-full px-4">
+                     <div className="mb-8 rounded-[20px] bg-white">
+
+                        <div className='flex justify-center md:h-[110px]'>
+                           <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+                              <div className="p-4">
+                                 <div className='flex justify-center'>
+                                    <Image src={"/assets/images/icon3.png"} width='1000' height='1000' className='w-10' alt='/' />
+                                 </div>
+                                 <p className="text-[14px] p-2 text-center font-semibold">{"Experience"}</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        <p className="text-body-color text-xs mt-4 text-justify">
+                           With deep industry knowledge
+                           experience in both products and
+                           services; we use a “Why NOT"
+                           approach to align with leading
+                           practices, processes, and system
+                           designs.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div className="w-full px-4">
+                     <div className="mb-8 rounded-[20px] bg-white">
+
+                        <div className='flex justify-center md:h-[110px]'>
+                           <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
+                              <div className="p-4">
+                                 <div className='flex justify-center'>
+                                    <Image src={"/assets/images/icon4.png"} width='1000' height='1000' className='w-8' alt='/' />
+                                 </div>
+                                 <p className="text-[14px] p-2 text-center font-semibold">{"Strategic Vision"}</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        <p className="text-body-color text-xs mt-4 text-justify">
+                           We invest in solutions that are geared
+                           towards market trends, the latest
+                           technologies, and products. We bring in
+                           a balanced approach to look at current
+                           market trends and future releases of our products and services to align with the current requirements.
+                        </p>
+                     </div>
+                  </div>
+
+               </div>
             </div>
+
          </section>
 
-         <section className="pt-2 lg:pt-[20px] lg:pb-[40px] my-20">
-            <div className="container">
+         <section className="container pt-2 lg:pt-[20px] lg:pb-[40px] my-20">
 
-               <div className="md:grid grid-cols-3 gap-16">
+               <div className="md:grid md:grid-cols-3 gap-16">
 
                   <div className="">
                      <Image width={"1000"} height={"1000"} src={"/assets/images/home-banner/servicenew.png"} className='w-full object-cover' alt='/' />
                   </div>
 
                   <div className="md:col-span-2">
-                     <div className="-mx-4 flex flex-wrap">
+                     <div className="md:-mx-4 flex flex-wrap">
                         <div className="w-full px-4">
 
-                           <div className="mx-auto mb-2 max-w-[100%] text-center lg:mb-10 mt-2">
+                           <div className="mx-auto md:mb-2 max-w-[100%] text-center lg:mb-10 mt-2">
                               <h2 className="font-bold md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 text-left ml-8 md:mb-[10px] lg:mb-[5px]">OUR SERVICES</h2>
                               <h2 className="font-bold md:text-4xl text-2xl text-[#202124] mb-[50px] text-left ml-8">We Served as your wish for success
                               </h2>
@@ -164,7 +161,7 @@ export default function Home() {
 
                         </div>
                      </div>
-                     <div className="-mx-4 grid grid-cols-3 px-4">
+                  <div className="md:-mx-4 grid md:grid-cols-3 grid-cols-1 px-4">
 
                         <div className="w-full px-4">
                            <div className="mb-8 rounded-[20px] bg-white">
@@ -219,10 +216,9 @@ export default function Home() {
 
                </div>
 
-            </div>
          </section>
 
-         <div id='about' className='mx-auto md:p-4 w-full bg-no-repeat bg-cover text-center md:bg-enabled_decks md:mt-5' >
+         <div className='md:block hidden mx-auto md:p-4 w-full bg-no-repeat bg-cover text-center bg-enabled_decks md:mt-5' >
             <div className='max-w-[1240px] m-auto md:grid grid-cols-2 gap-8'>
 
                <div>
@@ -264,7 +260,53 @@ export default function Home() {
             </div>
          </div>
 
-         <div className='mx-auto md:max-w-6xl container'>
+         {/* Start For mobile */}
+         <div className='block md:hidden mx-auto md:p-4 w-full bg-no-repeat bg-cover text-center bg-enabled_decks md:mt-5' >
+            <div className='max-w-[1240px] m-auto md:grid grid-cols-2 gap-8'>
+
+
+               <div className='w-full h-auto -mt-10 m-auto flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                  <Image width={"1000"} height={"1000"} src={AboutImg} className='w-full -mt-10' alt='/' />
+               </div>
+               
+               <div>
+                  <div className='bg-mpbile_enabled_decks bg-no-repeat bg-cover px-2 md:my-2'>
+                     <div className='flex justify-between'>
+                        <h2 className="font-bold md:text-3xl text-2xl text-[#152C4E] text-left">UI-Apps SAP Solution</h2>
+                        <Image width={"1000"} height={"1000"} className='object-fill w-full' src={"/assets/images/sap-partner.png"} />
+                     </div>
+
+                     <h2 className="font-bold md:text-1xl mt-6 text-2xl text-[#152C4E] text-left">Automated Data Processing, Accelerated
+                        Automated Data Processing
+                     </h2>
+                     <p className='py-2 text-gray-600 text-left'>
+                        {`An easy-to-use role-based UI application that provides a simple and secure way to migrate
+                        (Import/Export) your employee payroll data
+                        securely into the SAP Success Factors
+                        Employee Central Payroll or SAP Private Cloud
+                        Payroll Systems.`}
+                     </p>
+                  </div>
+
+                  <div className='bg-mpbile_enabled_decks bg-no-repeat bg-cover px-2 md:my-5'>
+                     <div className='flex justify-between mt-6'>
+                        <h2 className="font-bold md:text-3xl text-2xl text-[#152C4E] text-left">ERP Solution</h2>
+                        <Image width={"1000"} height={"1000"} className='w-full' src={"/assets/images/erp-solution.png"} />
+                     </div>
+
+                     <h2 className="font-bold md:text-1xl text-2xl mt-6 text-[#152C4E] text-left">Empowering Education, Connecting Futures
+                     </h2>
+                     <p className='py-2 text-gray-600 text-left'>
+                        {`A user-friendly role-based UI application streamlines school data management. Easily migrate student information and academic records into the School ERP system, ensuring a secure and efficient process for your institution.`}
+                     </p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+{/* Ed for mobile */}
+
+         <div className='mx-auto md:max-w-6xl md:w-full container mt-10'>
             <div className='md:grid grid-cols-2 md:my-20'>
                <div className="rounded-lg">
                   <Image width={"1000"} height={"1000"} src={"/assets/images/sapsolution-circule.png"} className='' alt='/' />
@@ -287,7 +329,7 @@ export default function Home() {
             </div>
          </div>
 
-         <div className='mx-auto md:max-w-6xl container'>
+         <div className='mx-auto md:max-w-6xl md:w-full container'>
             <div className='md:grid grid-cols-2 md:my-20'>
 
                <div className='mb-8 px-12'>
@@ -306,7 +348,7 @@ export default function Home() {
             </div>
          </div>
 
-         <div className='mx-auto md:max-w-6xl container'>
+         <div className='mx-auto md:max-w-6xl md:w-full container mt-20'>
             <div className='md:grid grid-cols-2 md:my-20'>
 
                <div className="rounded-lg flex justify-center">
@@ -315,7 +357,7 @@ export default function Home() {
 
                <div className='mb-8 px-12'>
                   <div className='content-start md:mt-4'>
-                     <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">{"Streamline School Management with SLRIS Edumatic"}</h2>
+                     <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4 mt-10">{"Streamline School Management with SLRIS Edumatic"}</h2>
                      <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
                         {`Discover SLRIS Edumatic's comprehensive suite of education management solutions,
 designed to enhance school operations and elevate the learning experience. Our Learning
