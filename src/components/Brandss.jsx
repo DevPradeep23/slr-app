@@ -44,7 +44,7 @@ const Brandss = () => {
           <Swiper
             breakpoints={{
               0: {
-                slidesPerView: 2,
+                slidesPerView: 3,
               },
               400: {
                 slidesPerView: 4,
