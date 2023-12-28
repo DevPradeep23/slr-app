@@ -45,18 +45,17 @@ export default function about() {
 
       <>
 
-
-         <div id='home' className={`md:h-screen md:bg-about_us md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
+         <div id='home' className={`md:h-screen md:bg-about_us backgroundPosition bg-about_us_mobile md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
             <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-6 flex justify-start items-center'>
                <div className='md:mt-24 mt-8'>
 
                   <div className='md:ml-10'>
-                     <div className='mt-20'>
-                        <h1 className='font-semibold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
+                     <div className='md:mt-20'>
+                        <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
                            {"Welcome to SLRIS,"}<br />
                         </h1>
 
-                        <TypeAnimation className="text-3xl sm:text-2xl md:text-3xl font-[Raleway] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]"
+                        <TypeAnimation className="text-2xl md:text-3xl font-[Raleway] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]"
                            // Same String at the start will only be typed once, initially
                            sequence={[
                               500, // wait 1s before replacing "Mice" with "Hamsters"
@@ -71,10 +70,8 @@ export default function about() {
                            repeat={Infinity}
                         />
 
-
-
                      </div>
-                     <button type="button" className="md:ml-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] px-6 py-2 text-[14px]">{"HIRE US ->"} </button>
+                     <button type="button" className="md:ml-1 md:mt-6 mt-4 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-1 md:text-[14px] text-[10px]">{"HIRE US ->"} </button>
 
                   </div>
 
@@ -86,43 +83,43 @@ export default function about() {
 
          <div className=''>
 
-            <div id='about' className={`h-auto `}>
-               <div className=' max-w-6xl w-full mx-auto md:p-16 p-6 grid grid-cols-2 md:mt-1'>
+            <div id='about' className={`md:h-auto mx-auto my-10`}>
+               <div className='md:max-w-6xl w-full mx-auto md:p-16 px-4 md:grid md:grid-cols-2 grid-cols-1 md:mt-1 '>
                   <div className=''>
-                     <h1 className='font-semibold text-left text-5xl text-[#152C4E] justify-center'>
+                     <h1 className='font-semibold text-left md:text-5xl text-4xl text-[#152C4E] justify-center'>
                         {"Our Strength Lies"}<br />{"in Our Team."}
                      </h1>
                      <div className=' float-right !mr-20'>
-                        <Image width={"160"} height={"210"} src={"../../assets/images/arrow2.png"} className='object-cover' alt='/' />
+                        <Image width={"160"} height={"210"} src={"../../assets/images/arrow2.png"} className='object-cover' alt='slris' />
                      </div>
                   </div>
 
-                  <div className=''>
+                  <div className='my-5'>
                      <p className='max-w-[1000px] text-justify py-2 text-[#152C4E] font-bold text-sm md:mt-20'>
                         {`At SLRIS, we're more than just a company – we're a family of innovative minds and dedicated professionals. Our success in providing top-notch IT and engineering services across diverse industries is fueled by our talented team.`}
                      </p>
                   </div>
                </div>
-               <div className='flex justify-center'>
-                  <Image width={"1000"} height={"1000"} src={"../../assets/images/strength.png"} className='md:mb-10 w-[500px] h-[300px]' alt='/' />
+               <div className='mx-auto flex justify-center'>
+                  <Image width={"1000"} height={"1000"} src={"../../assets/images/strength.png"} className='md:mb-10 md:w-[500px] md:h-[300px] w-full px-4' alt='slris' />
                </div>
             </div>
 
 
-            <div id='about' className={`h-auto bg-gradient-to-r from-[#bafffc] from-15% via-[#dcfffd] via-20% to-[#cafffc] to-100% md:w-full my-10`} >
+            <div id='CoreValues' className={`md:h-auto bg-gradient-to-r from-[#bafffc] from-15% via-[#dcfffd] via-20% to-[#cafffc] to-100% md:w-full md:my-12`} >
 
-               <div className='container mx-auto md:py-5 '>
+               <div className='container mx-auto md:py-5 py-4'>
 
-                  <div className='flex flex-row justify-center h-full items-center md:py-2'>
-                     <h1 className='font-semibold text-left text-4xl text-[#152C4E] justify-center'>
-                        {`Our Core Values:`}<br />{` The Foundation of SLRIS`}
+                  <div className='md:flex md:flex-row md:justify-center md:h-full md:items-center md:py-2 py-4'>
+                     <h1 className='font-semibold md:text-left md:text-4xl text-center text-3xl text-[#152C4E] justify-center'>
+                        {`Our Core Values:`}<br className='md:block hidden' />{`The Foundation of SLRIS`}
                      </h1>
-                     <div className=''>
+                     <div className='md:block hidden'>
                         <Image width={"90"} height={"115"} src={"../../assets/images/arrow3.png"} className='object-cover' alt='/' />
                      </div>
                   </div>
 
-                  <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-10 md:ml-10'>
+                  <div className='mx-auto grid md:grid-cols-3 lg:grid-cols-3 grid-cols-1 place-items-center justify-center gap-8 mb-10'>
 
                      {visionMission && visionMission.map((list, index) => (
                         <div key={index} className='hover:border-[#75EAE2] border-2 relative w-80 h-60 rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-50 card'>
@@ -143,12 +140,12 @@ export default function about() {
 
             </div>
 
-            <div id='about' className={`h-auto bg-gradient-to-r from-[#bafffc] from-15% via-[#cafffc] via-20% to-[#dcfffd] to-100% md:w-full py-8`} >
+            <div id='about' className={`md:h-auto  bg-gradient-to-r from-[#bafffc] from-15% via-[#cafffc] via-20% to-[#dcfffd] to-100% md:w-full md:my-6 md:py-5 py-5 my-5`} >
                <div className='container mx-auto'>
 
-                  <div className='max-w-[1240px] flex flex-row justify-center h-full'>
+                  <div className='md:max-w-[1240px] md:flex md:flex-row justify-center md:h-full'>
                      <Image width={"1000"} height={"1000"} src={"../../assets/images/arrow4.png"} className='w-60 h-10 mt-8' alt='/' />
-                     <div className=' max-w-2xl'>
+                     <div className='md:max-w-2xl'>
                         <h1 className="font-bold md:text-4xl text-2xl text-[#152C4E] text-center mt-6 ">
                            {`Our Portfolio Spectrum`}
                         </h1>
@@ -158,15 +155,15 @@ export default function about() {
                      </div>
                   </div>
 
-                  <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-10 '>
+                  <div className='mx-2 grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 place-items-center md:gap-8 gap-4 md:mb-10 '>
                      {portfolioSpectrum && portfolioSpectrum.map((list, index) => (
                         <div key={index} className='bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:border-[#75EAE2] border-2'>
                            <div className='m-auto'>
                               <Image width={"1000"} height={"1000"} src={list.imageUrl} className='w-full md:h-36' alt='/' />
                            </div>
-                           <div className='flex flex-col items-center justify-center my-4'>
-                              <h3>{list.title}</h3>
-                              <p className='my-2 text-sm'>{list.description}</p>
+                           <div className='flex flex-col my-4'>
+                              <h2 className='text-left md:text-[22px] text-[16px]'>{list.title}</h2>
+                              <p className='my-2 text-sm text-left'>{list.description}</p>
                            </div>
                            {/* <Link href={`pages/blogs/${list.slug}`} className='flex text-sm'>Read<FaArrowRight className='mt-1 ml-2' /></Link> */}
                         </div>
@@ -178,8 +175,8 @@ export default function about() {
                </div>
             </div>
 
-            <div id='blog' className='max-w-[1200px] w-full p-2 py-10 mx-auto my-10 '>
-               <div className='max-w-[1000px] mx-auto flex flex-col justify-center h-full'>
+            <div id='blog' className='container mx-auto md:max-w-[1200px] w-full p-2 mt-8'>
+               <div className='md:max-w-[1000px] mx-auto flex flex-col justify-center h-full'>
 
                   <div className='items-center md:mb-10'>
                      <h1 className="font-bold md:text-4xl text-2xl text-[#152C4E] text-center">
@@ -217,9 +214,9 @@ export default function about() {
                </div>
             </div>
 
-            <div id='blog' className='max-w-[1200px] w-full p-2 py-10 mx-auto my-10'>
+            <div id='blog' className='md:max-w-[1200px] w-full p-2 mx-auto -mt-10 md:mt-14'>
 
-               <div className='mx-auto md:max-w-6xl md:grid grid-cols-2 my-10 gap-10'>
+               <div className='mx-auto md:max-w-6xl md:grid grid-cols-2 gap-10'>
 
                   <div className='mt-12'>
                      <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">{"SLRIS Team: Where Work Meets Fun."}</h2>
@@ -229,16 +226,16 @@ export default function about() {
                   </div>
 
                   <div className="aspect-w-16 aspect-h-9 hover:border-[#75EAE2] border-2">
-                     <iframe className='w-full h-64 rounded-lg' src="https://www.youtube.com/embed/lC76FtLeDy0?si=kvYzCYJuEn9n1kw_" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <iframe className='w-full h-64 rounded-lg' src="https://www.youtube.com/embed/lC76FtLeDy0?si=kvYzCYJuEn9n1kw_" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                   </div>
 
                </div>
             </div>
 
-            <div id='about' className={`h-auto`} >
+            <div id='about' className={`container mx-auto md:h-auto md:my-8 my-10 `} >
                <div className='w-full mx-auto md:p-16 p-6'>
                   <div className=''>
-                     <h1 className='font-semibold text-center text-4xl text-[#152C4E]'>
+                     <h1 className='font-semibold text-center md:text-4xl text-3xl text-[#152C4E]'>
                         {"United in Purpose, United as a Team."}<br />
                         {"(You can be a part of it)"}
                      </h1>
@@ -256,14 +253,14 @@ export default function about() {
                </div>
             </div>
 
-            <div id='about' className={`h-auto  md:w-full mt-4`} >
+            <div id='about' className={`container mx-auto md:h-auto md:w-full mt-4`} >
                <div className='w-full mx-auto md:p-12 p-4'>
                   <div className=''>
-                     <h1 className='font-semibold text-center text-4xl text-[#152C4E]'>
+                     <h1 className='font-semibold text-center md:text-4xl text-3xl text-[#152C4E]'>
                         {"Unveil Your Path to Success with Us"}
                      </h1>
                      <div className='flex justify-center float-right !mr-5'>
-                        <Image width={"1000"} height={"1000"} src={"../../assets/images/joinus.png"} className='md:mt-20 w-[120px] h-[210px]' alt='/' />
+                        <Image width={"1000"} height={"1000"} src={"../../assets/images/joinus.png"} className='md:mt-20 w-[120px] h-[210px]' alt='slris' />
                      </div>
 
                      {/* <div className=''>
