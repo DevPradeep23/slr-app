@@ -20,7 +20,7 @@ const Storyteller = () => {
             <h6 className='mb-2 text-[#F05108] text-justify'>
               {`SLRIS - Where Trust and Partnership Meet Excellence`}
             </h6>
-            <p className='text-[#152C4E] text-justify text-xs mb-2'>
+            <p className='text-[#152C4E] text-justify text-[12px] md:text-[14px] mb-2'>
               {`Embrace the confidence in our proven
                 expertise as we turn your vision into reality.
                 Our comprehensive range of services paves

@@ -35,7 +35,7 @@ const Brandss = () => {
       <div id='testimonial' className='w-full p-1 py-1 mx-auto container md:my-16'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
           <div className='mx-auto'>
-            <h2 className="font-bold md:text-2xl text-2xl px-1 text-[#202124] mb-[50px]  text-justify">Grateful for the trust and support of our valued clients and partners, propelling us forward in our journey
+            <h2 className="font-bold md:text-2xl text-[16px] px-1 text-[#202124] mb-[50px]  text-left leading-[20px]">Grateful for the trust and support of our valued clients and partners, propelling us forward in our journey
               <div className="md:w-full border border-[#75EAE2] border-b-4 border-l-0 border-r-0 border-t-0 mt-1">
               </div>
             </h2>

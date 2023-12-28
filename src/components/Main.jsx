@@ -22,8 +22,8 @@ const Main = ({ bannerBg, bgTitle, bgTitle1, bgTitle2, content, type, className,
                   <h2 className='text-[#152C4E] md:text-4xl text-2xl'>
                     {bgTitle} <span className='text-[#152C4E]'> {bgTitle1} </span>
                   </h2>
-                  <h2 className='md:py-2 text-[#152C4E] md:ml-48 md:text-4xl text-2xl'>{bgTitle2}</h2>
-                  <p className='md:py-4 text-[#202124] sm:max-w-[70%] m-auto font-inter font-semibold md:text-[14px]'>
+                  <h2 className='md:py-2 text-[#152C4E] md:ml-48 md:text-4xl text-[18px]'>{bgTitle2}</h2>
+                  <p className='md:py-4 text-[#202124] sm:max-w-[70%] m-auto font-inter font-semibold text-[16px] md:text-[14px]'>
                     {content}
                   </p>
                 </div>

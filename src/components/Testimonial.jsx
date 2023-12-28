@@ -19,7 +19,7 @@ const Testimonial = () => {
       <div id='testimonial' className='w-full p-2 py-10'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
          <div className='mx-auto'>
-            <h2 className="font-bold md:text-4xl text-2xl text-[#202124] mb-[50px] text-center">What our <span className='text-[#F05108]'>clients</span> and 
+            <h2 className="font-bold md:text-4xl text-2xl text-[#202124] mb-[20px] md:mb-[30px] text-center">What our <span className='text-[#F05108]'>clients</span> and 
               <span className='text-[#F05108]'> business partners</span> say about us
             </h2>
          </div>
@@ -72,7 +72,7 @@ const Testimonial = () => {
                 <SwiperSlide className='' key={index}>
                   <div className='bg-white shadow-md-2 hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2 w-fit h-auto'>
                     
-                    <p className='py-2 text-gray-900 text-[12px] text-justify p-2'>
+                    <p className='py-2 text-gray-900 text-[12px] md:text-[14px] text-justify p-2'>
                       {option.description}
                     </p>
 
