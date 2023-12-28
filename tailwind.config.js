@@ -11,7 +11,7 @@ module.exports = {
         hero_bg_image:
           "url('../../public/assets/images/home-banner/home-banner.png')",
         mobile_hero_bg_image:
-          "url('../../public/assets/images/mobile-hero.jpg')",
+          "url('../../public/assets/images/home-banner/home-banner.png')",
         enabled_decks: "url('../../public/assets/images/mobile-about.png')",
         navbarbanner: "url('../../public/assets/images/hero.jpg')",
         mobile_enabled_decks:
@@ -34,7 +34,7 @@ module.exports = {
           "url('../../public/assets/images/home-banner/digital-marketing-banner.png')",
 
         classroom_management:
-          "url('../../public/assets/images/home-banner/classroom-management.png')",  
+          "url('../../public/assets/images/home-banner/classroom-management.png')",
 
         choose_excellence:
           "url('../../public/assets/images/home-banner/choose-chalaning.png')",
@@ -73,23 +73,24 @@ module.exports = {
           "url('../../public/assets/images/home-banner/practice-question.png')",
 
         communication_module:
-          "url('../../public/assets/images/home-banner/communication-module.png')",  
-
+          "url('../../public/assets/images/home-banner/communication-module.png')",
 
         private_chat:
           "url('../../public/assets/images/home-banner/private-chat.png')",
-          
+
         website_builder:
           "url('../../public/assets/images/home-banner/website-builder.png')",
-          
+
         web_mobile_app:
-          "url('../../public/assets/images/home-banner/web-mobile-app.png')",  
-        about_us:
-          "url('../../public/assets/images/home-banner/about-us.png')",
+          "url('../../public/assets/images/home-banner/web-mobile-app.png')",
+        about_us: "url('../../public/assets/images/home-banner/about-us.png')",
 
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      backgroundPosition: {
+        mobile_hero_bg_image: "100% 0%",
       },
     },
     fontFamily: {
