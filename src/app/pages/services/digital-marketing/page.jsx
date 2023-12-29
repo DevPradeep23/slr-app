@@ -7,21 +7,21 @@ const page = () => {
 
         <>
 
-            <div id='home' className={`md:h-screen md:bg-digital_marketing md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
+            <div id='home' className={`md:h-screen md:bg-digital_marketing bg-digital_marketing_mobile backgroundPosition md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
                 <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-6 flex justify-start items-center'>
                     <div className='md:mt-24 mt-8'>
 
                         <div className='md:ml-10'>
                             <div className='mt-2'>
-                                <h1 className='font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
+                                <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
                                     {"Digital Marketing"}<br />{"Solutions"}
                                 </h1>
-                                <p className='md:max-w-[460px] py-4 text-[#202124] m-auto font-inter font-semibold text-[14px]'>
+                                <p className='md:max-w-[460px] py-4 text-[#202124] m-auto font-inter font-semibold md:text-[14px] text-[12px]'>
                                     {"Explore our comprehensive Digital Marketing services designed to boost your online presence and drive success."}
                                 </p>
                             </div>
 
-                            <button type="button" className="md:ml-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] px-6 py-2 text-[14px]">{"HIRE US ->"} </button>
+                            <button type="button" className="md:ml-1 md:mt-6 mt-4 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-1 md:text-[14px] text-[10px]">{"HIRE US ->"} </button>
 
                         </div>
 
@@ -35,17 +35,15 @@ const page = () => {
 
                     <div className="md:grid grid-cols-3">
 
-                        <div className="md:mt-40">
-
-                            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-full object-cover' alt='/' />
-
+                        <div className="md:mt-40 mt-10">
+                            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-full object-cover' alt='slris' />
                         </div>
 
                         <div className="md:col-span-2">
                             <div className="-mx-4 flex flex-wrap">
                                 <div className="w-full px-4">
 
-                                    <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 mt-8">
+                                    <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 md:mt-8">
                                         <h2 className="font-bold md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 text-left ml-8 md:mb-[60px] lg:mb-[20px]">OUR SERVICES</h2>
                                         <h2 className="font-bold md:text-4xl text-2xl text-[#202124] mb-[50px] text-left ml-8">We Served as your wish for success
                                         </h2>
@@ -53,7 +51,7 @@ const page = () => {
 
                                 </div>
                             </div>
-                            <div className="-mx-4 grid grid-cols-3 px-4">
+                            <div className="-mx-4 grid md:grid-cols-3 grid-cols-2 px-4">
 
                                 <div className="w-full px-4">
                                     <div className="mb-8 rounded-[20px] bg-white">
@@ -162,15 +160,15 @@ const page = () => {
                 </div>
             </section>
 
-            <div id='about' className='mx-auto md:p-4 w-full md:h-screen bg-no-repeat bg-cover text-center md:bg-choose_excellence py-5' >
-                <div className='max-w-[1100px] m-auto md:grid grid-cols-2 gap-8'>
+            <div id='about' className='mx-auto md:p-4 w-full md:h-screen h-[380px] bg-no-repeat bg-cover text-center bg-choose_excellence py-5' >
+                <div className='md:max-w-[1100px] m-auto md:grid grid-cols-2 gap-8'>
 
                     <div className='bg-mpbile_enabled_decks bg-no-repeat bg-cover md:mt-32 px-2'>
-                        <h1 className="font-bold md:text-4xl text-2xl text-[#152C4E] text-left">Choosing Excellence <br /> in Digital Marketing</h1>
-                        <p className='py-2 text-gray-600 text-left text-sm md:mt-2'>
+                        <h1 className="font-bold md:text-4xl text-2xl text-[#152C4E] md:text-left">Choosing Excellence <br /> in Digital Marketing</h1>
+                        <p className='py-2 text-gray-600 md:text-left text-justify text-sm md:mt-2'>
                             {`We stand out as your trusted digital marketing partner. Our seasoned experts in SEO, Google Ads, Social Media, Branding, and Lead generation bring years of experience to deliver exceptional results. We tailor strategies to your unique goals, staying ahead of industry trends with cutting-edge techniques. We're dedicated to your success and`}
                         </p>
-                        <ul className='md:text-left md:text-xs md:p-2 md:ml-2 md:gap-2 list-disc'>
+                        <ul className='md:text-left text-center md:text-xs md:p-2 md:ml-2 md:gap-2 list-disc'>
                             <li className='text-[#75EAE4]'>
                                 <span class="text-black">Proven Expertise</span>
                             </li>
@@ -196,10 +194,10 @@ const page = () => {
             <div className='w-full md:mt-16'>
                 <div className='md:max-w-[1000px] m-auto px-2 py-16 md:py-0 w-full flex justify-center items-center'>
 
-                    <div className='grid grid-cols-2 border-[1px] border-[#00000040] p-4 rounded-t-lg'>
+                    <div className='grid md:grid-cols-2 grid-cols-1 border-[1px] border-[#00000040] p-4 rounded-t-lg'>
 
                         <div>
-                            <Image width={"1000"} height={"1000"} src={"/assets/images/home-banner/progress-bar-image.png"} className='object-cover md:w-[330px] md:h-[390px]' alt='/' />
+                            <Image width={"1000"} height={"1000"} src={"/assets/images/home-banner/progress-bar-image.png"} className='object-cover md:w-[330px] md:h-[390px]' alt='slr' />
                         </div>
 
                         <div>
@@ -237,7 +235,7 @@ const page = () => {
                                 </div>
                             </div>
 
-                            <button type="button" className="rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] px-6 py-2 text-[14px]">{"Start a Project ->"} </button>
+                            <button type="button" className="rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] px-6 py-2 my-2 text-[14px]">{"Start a Project ->"} </button>
 
                         </div>
 
@@ -254,7 +252,7 @@ const page = () => {
                                 Elevate Your Business to New Heights Online
                             </h1>
                         </div>
-                        <p className='text-gray-600 text-left text-sm md:mt-48'>
+                        <p className='text-gray-600 md:text-left text-justify text-sm md:mt-48'>
                             {`our primary mission is to catapult your business to new heights in the digital realm. With our expertise and unwavering dedication, we craft innovative strategies and deploy cutting-edge techniques tailored to your unique goals. Whether it's enhancing your online visibility, driving targeted traffic, or maximizing your return on investment, we are here to ensure your business thrives in the competitive online landscape. Count on us to be your trusted partner, committed to achieving excellence and propelling your business toward unparalleled success."`}
                         </p>
                     </div>
@@ -264,7 +262,7 @@ const page = () => {
             <div id='blog' className='w-full p-2 py-10'>
                 <div className='max-w-[1000px] mx-auto flex flex-col justify-center h-full'>
 
-                    <div className='flex justify-center items-center md:mb-10'>
+                    <div className='flex justify-center items-center md:mb-10 mb-5'>
                         <h1 className="md:max-w-[450px] font-bold md:text-4xl text-2xl text-[#152C4E] text-center">
                             Our Expert team will help you.
                         </h1>
@@ -277,13 +275,13 @@ const page = () => {
                                 <Image width={"1000"} height={"1000"} src={"/assets/images/home-banner/blog-3.png"} className='w-full' alt='/' />
                             </div>
 
-                            <div className='relative z-10 md:-mt-5 md:w-8 md:ml-24'>
+                            <div className='hidden md:block md:relative z-10 md:-mt-5 md:w-8 md:ml-24'>
                                 <BsPlusCircleFill className='text-3xl' />
                             </div>
 
-                            <div className='relative md:w-[180px] float-right rounded-tl-full border-[1px] border-white md:-mt-12 bg-white'>
-                                <h3 className='md:text-sm text-right'>{"Bessie Cooper"}</h3>
-                                <p className='my-2 text-xs text-right'>{"Marketing Manager"}</p>
+                            <div className='md:relative md:w-[180px] md:float-right rounded-tl-full border-[1px] border-white md:-mt-12 bg-white'>
+                                <h3 className='md:text-sm md:text-right text-center'>{"Bessie Cooper"}</h3>
+                                <p className='my-2 text-xs md:text-right text-center'>{"Marketing Manager"}</p>
                             </div>
                         </div>
 
@@ -291,26 +289,26 @@ const page = () => {
                             <div className='m-auto'>
                                 <Image width={"1000"} height={"1000"} src={"/assets/images/home-banner/blog-1.png"} className='w-full' alt='/' />
                             </div>
-                            <div className='relative z-10 md:-mt-5 md:w-8 md:ml-24'>
+                            <div className='hidden md:block md:relative z-10 md:-mt-5 md:w-8 md:ml-24'>
                                 <BsPlusCircleFill className='text-3xl' />
                             </div>
 
-                            <div className='relative md:w-[180px] float-right rounded-tl-full border-[1px] border-white md:-mt-12 bg-white'>
-                                <h3 className='md:text-sm text-right'>{"Ronald Richards"}</h3>
-                                <p className='my-2 text-xs text-right'>{"Marketing Manager"}</p>
+                            <div className='md:relative md:w-[180px] md:float-right rounded-tl-full border-[1px] border-white md:-mt-12 bg-white'>
+                                <h3 className='md:text-sm md:text-right text-center'>{"Ronald Richards"}</h3>
+                                <p className='my-2 text-xs md:text-right text-center'>{"Marketing Manager"}</p>
                             </div>
                         </div>
                         <div className='hover:border-[#75EAE2] border-2 p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                             <div className='m-auto'>
                                 <Image width={"1000"} height={"1000"} src={"/assets/images/home-banner/blog-2.png"} className='w-full' alt='/' />
                             </div>
-                            <div className='relative z-10 md:-mt-5 md:w-8 md:ml-24'>
+                            <div className='hidden md:block md:relative z-10 md:-mt-5 md:w-8 md:ml-24'>
                                 <BsPlusCircleFill className='text-3xl' />
                             </div>
 
-                            <div className='relative md:w-[180px] float-right rounded-tl-full border-[1px] border-white md:-mt-12 bg-white'>
-                                <h3 className='md:text-sm text-right'>{"Theresa Webb"}</h3>
-                                <p className='my-2 text-xs text-right'>{"Marketing Manager"}</p>
+                            <div className='relative md:w-[180px] md:float-right rounded-tl-full border-[1px] border-white md:-mt-12 bg-white'>
+                                <h3 className='md:text-sm md:text-right text-center'>{"Theresa Webb"}</h3>
+                                <p className='my-2 text-xs md:text-right text-center'>{"Marketing Manager"}</p>
                             </div>
                         </div>
 
