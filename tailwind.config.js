@@ -85,7 +85,11 @@ module.exports = {
 
         web_mobile_app:
           "url('../../public/assets/images/home-banner/web-mobile-app.png')",
+        web_mobile_responsive_app:
+          "url('../../public/assets/images/home-banner/web-mobile-app.png')",
+
         about_us: "url('../../public/assets/images/home-banner/about-us.png')",
+
         about_us_mobile:
           "url('../../public/assets/images/home-banner/about-us.png')",
 
@@ -96,7 +100,8 @@ module.exports = {
       backgroundPosition: {
         mobile_hero_bg_image: "100% 0%",
         about_us_mobile: "100% 0%",
-        digital_marketing_mobile:"100% 0%",
+        digital_marketing_mobile: "100% 0%",
+        web_mobile_responsive_app: "100% 0%",
       },
     },
     fontFamily: {
