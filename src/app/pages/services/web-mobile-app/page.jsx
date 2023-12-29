@@ -61,21 +61,21 @@ const page = () => {
 
         <>
 
-            <div id='home' className={`md:h-screen md:bg-web_mobile_app md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
+            <div id='home' className={`md:h-screen md:bg-web_mobile_app bg-web_mobile_responsive_app backgroundPosition md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
                 <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-6 flex justify-start items-center'>
-                    <div className='md:mt-24 mt-8'>
+                    <div className='md:mt-24 mt-4'>
 
                         <div className='md:ml-10'>
-                            <div className='mt-2'>
-                                <h1 className='font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
+                            <div className=''>
+                                <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
                                     {"Web and Mobile app"}<br />{"Development services"}
                                 </h1>
-                                <p className='md:max-w-[550px] py-4 text-[#202124] m-auto font-inter font-semibold text-[14px]'>
+                                <p className='md:max-w-[550px] py-2 text-[#202124] m-auto font-inter font-semibold md:text-[14px] text-[12px]'>
                                     {"Our proficiency in software development and mobile app development empowers businesses to not just survive, but thrive in today's dynamic digital terrain."}
                                 </p>
                             </div>
 
-                            <button type="button" className="md:ml-1 hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] px-6 py-2 text-[14px]">{"SCHEDULE A MEETING ->"} </button>
+                            <button type="button" className="md:ml-1 md:mt-6 -mt-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-2 md:text-[14px] text-[10px]">{"SCHEDULE A MEETING ->"} </button>
 
                         </div>
 
@@ -84,31 +84,31 @@ const page = () => {
                 </div>
             </div>
 
-            <div id='' className='mx-auto md:p-4 w-full text-center md:my-1 md:py-20 bg-gradient-to-r from-[#FFFFFF] from-15% via-[#FCFFFE80] via-20% to-[#75EAE440] to-100% ' >
+            <div id='' className='mx-auto md:p-4 w-full text-center md:my-1 md:py-20 py-10 bg-gradient-to-r from-[#FFFFFF] from-15% via-[#FCFFFE80] via-20% to-[#75EAE440] to-100% ' >
                 <div className='md:max-w-6xl m-auto md:grid grid-cols-2 gap-8'>
 
-                    <div className=''>
-                        <h2 className="font-bold md:text-2xl text-2xl text-[#152C4E] text-left">Unlocking Business Potential Through Development</h2>
-                        <p className='py-2 text-gray-600 text-justify text-sm md:mt-2'>
+                    <div className='mx-auto'>
+                        <h2 className="font-bold md:text-2xl text-xl text-[#152C4E] md:text-left text-center">Unlocking Business Potential Through Development</h2>
+                        <p className='py-2 text-gray-600 md:text-justify text-center text-sm md:mt-2'>
                             Discover how software development and mobile <br /> app development can revolutionize your business <br /> operations and drive growth.
                         </p>
 
                         <div className="rounded-lg">
-                            <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"/assets/images/home-banner/mobile-app-1.png"} alt='/' />
+                            <Image className='md:w-[300px] w-full' width={"1000"} height={"1000"} src={"/assets/images/home-banner/mobile-app-1.png"} alt='slris' />
                         </div>
 
                     </div>
 
-                    <div className=' bg-white shadow-md rounded-md hover:scale-105 ease-in duration-300 hover:border-[#75EAE2] border-2'>
+                    <div className='bg-white shadow-md rounded-md hover:scale-105 ease-in duration-300 hover:border-[#75EAE2] border-2'>
 
                         <div className='mx-auto grid grid-cols-2 py-10'>
 
                             {services && services.map((list, index) => (
                                 <div key={list.name} className='grid grid-cols-2'>
                                     <div className='m-auto text-left'>
-                                        <Image src={list.imageUrl} className='w-full' width={"1000"} height={"1000"} alt='/' />
+                                        <Image src={list.imageUrl} className='w-full' width={"1000"} height={"1000"} alt='slris' />
                                     </div>
-                                    <div className='text-left md:-ml-12 md:py-2'>
+                                    <div className='md:text-left md:-ml-12 -ml-8 text-left md:py-2'>
                                         <span className='text-[12px]'>{list.name}</span>
                                     </div>
                                 </div>
@@ -120,12 +120,12 @@ const page = () => {
                 </div>
             </div>
 
-            <div id='' className='mx-auto md:p-4 w-full text-center md:my-10' >
+            <div id='' className='mx-auto md:p-4 w-full text-center md:my-10 my-8' >
                 <div className='md:max-w-6xl m-auto md:grid grid-cols-2 gap-8'>
 
                     <div className='bg-white hover:scale-105 ease-in duration-300'>
 
-                        <div className='grid md:grid-cols-3 grid-cols-1 gap-2 px-1'>
+                        <div className='grid md:grid-cols-3 grid-cols-2 gap-2 px-1'>
 
                             {DigitalServices && DigitalServices.map((listTwo, index) => (
                                 <div key={listTwo.name} className="md:w-[175px] md:py-1 hover:border-[#75EAE2] border-2 bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
@@ -144,9 +144,9 @@ const page = () => {
                     </div>
 
                     <div className=''>
-                        <h2 className="font-bold md:text-2xl text-2xl text-[#152C4E]">Innovative Digital Solutions for You</h2>
+                        <h2 className="font-bold md:text-2xl text-2xl mt-8 text-[#152C4E]">Innovative Digital Solutions for You</h2>
 
-                        <div className="rounded-lg flex justify-center mt-20">
+                        <div className="rounded-lg flex justify-center md:mt-20">
                             <Image className='md:w-[300px]' width={"1000"} height={"1000"} src={"/assets/images/home-banner/services-3.png"} alt='/' />
                         </div>
 
@@ -155,7 +155,7 @@ const page = () => {
                 </div>
             </div>
 
-            <div id='' className='mx-auto md:p-2 w-full text-center md:my-4 bg-gradient-to-r from-[#FFFFFF] from-5% via-[#FCFFFE80] via-5% to-[#75EAE440] to-100% ' >
+            <div id='' className='mx-auto p-4 md:p-2 w-full text-center md:my-4 bg-gradient-to-r from-[#FFFFFF] from-5% via-[#FCFFFE80] via-5% to-[#75EAE440] to-100% ' >
                 <div className='md:max-w-6xl m-auto md:grid grid-cols-2 gap-8 py-14'>
 
                     <div className='md:max-w-6xl'>
@@ -169,7 +169,7 @@ const page = () => {
 
                     <div className='hover:scale-105 ease-in duration-300'>
 
-                        <div className='grid md:grid-cols-3 grid-cols-1 gap-2 px-1'>
+                        <div className='grid md:grid-cols-3 grid-cols-2 gap-2 px-1'>
 
                             {StreamlinedDevelopment && StreamlinedDevelopment.map((listThree, index) => (
                                 <div key={listThree.name} className="md:w-[175px] md:py-1 bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
@@ -191,9 +191,9 @@ const page = () => {
             </div>
 
             <div id='' className='md:max-w-6xl mx-auto w-full text-center md:mt-10' >
-                <div className='grid md:grid grid-cols-2 gap-8'>
+                <div className='grid md:grid md:grid-cols-2 grid-cols-1 gap-8'>
 
-                    <div className='md:max-w-lg'>
+                    <div className='md:max-w-lg my-10 p-4'>
                         <h2 className="font-bold md:text-xl text-2xl text-[#152C4E] text-left">{`Leveraging Cutting-Edge Technologies for Software and Mobile App`}
                             <br /> Development</h2>
                         <div className="rounded-lg md:mt-10">
