@@ -12,16 +12,16 @@ const page = () => {
                     <div className='md:mt-24 mt-8'>
 
                         <div className='md:ml-10'>
-                            <div className='mt-2'>
+                            <div className=''>
                                 <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
                                     {"Digital Marketing"}<br />{"Solutions"}
                                 </h1>
-                                <p className='md:max-w-[460px] py-4 text-[#202124] m-auto font-inter font-semibold md:text-[14px] text-[12px]'>
+                                <p className='md:max-w-[460px] py-2 text-[#202124] m-auto font-inter font-semibold md:text-[14px] text-[12px]'>
                                     {"Explore our comprehensive Digital Marketing services designed to boost your online presence and drive success."}
                                 </p>
                             </div>
 
-                            <button type="button" className="md:ml-1 md:mt-6 mt-4 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-1 md:text-[14px] text-[10px]">{"HIRE US ->"} </button>
+                            <button type="button" className="md:ml-1 md:mt-6 -mt-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-1 md:text-[14px] text-[10px]">{"HIRE US ->"} </button>
 
                         </div>
 
@@ -35,12 +35,12 @@ const page = () => {
 
                     <div className="md:grid grid-cols-3">
 
-                        <div className="md:mt-40 mt-10">
-                            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-full object-cover' alt='slris' />
+                        <div className="md:mt-40">
+                            <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/digital-serivces.png"} className='w-full object-fill' alt='slris' />
                         </div>
 
                         <div className="md:col-span-2">
-                            <div className="-mx-4 flex flex-wrap">
+                            <div className="md:-mx-4 flex flex-wrap">
                                 <div className="w-full px-4">
 
                                     <div className="mx-auto mb-12 max-w-[100%] text-center lg:mb-10 md:mt-8">
@@ -51,7 +51,7 @@ const page = () => {
 
                                 </div>
                             </div>
-                            <div className="-mx-4 grid md:grid-cols-3 grid-cols-2 px-4">
+                            <div className="md:-mx-4 grid md:grid-cols-3 grid-cols-2 px-4">
 
                                 <div className="w-full px-4">
                                     <div className="mb-8 rounded-[20px] bg-white">
