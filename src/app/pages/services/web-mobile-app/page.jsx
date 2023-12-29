@@ -128,7 +128,7 @@ const page = () => {
                         <div className='grid md:grid-cols-3 grid-cols-2 gap-2 px-1'>
 
                             {DigitalServices && DigitalServices.map((listTwo, index) => (
-                                <div key={listTwo.name} className="md:w-[175px] md:py-1 hover:border-[#75EAE2] border-2 bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+                                <div key={listTwo.name} className="md:w-[175px] md:py-1 mx-2 hover:border-[#75EAE2] border-2 bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
                                     <div className="p-1">
                                         {listTwo.imageUrl &&
                                             <div className='flex justify-center'>
