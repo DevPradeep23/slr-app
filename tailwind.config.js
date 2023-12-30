@@ -46,6 +46,8 @@ module.exports = {
 
         product_banner:
           "url('../../public/assets/images/home-banner/product-banner.png')",
+        product_banner_mobile:
+          "url('../../public/assets/images/home-banner/product-banner.png')",
 
         edumatic_banner:
           "url('../../public/assets/images/home-banner/edumatic.png')",
@@ -102,6 +104,7 @@ module.exports = {
         about_us_mobile: "100% 0%",
         digital_marketing_mobile: "100% 0%",
         web_mobile_responsive_app: "100% 0%",
+        product_banner_mobile: "100% 0%",
       },
     },
     fontFamily: {
