@@ -10,6 +10,12 @@ import SapUi from '@/components/SapUi';
 
 export default function Home() {
 
+   const SapUiData = [
+      { title: "Streamline your Workload", imageUrl: "/assets/images/sapsolution-circule.png", short_description: "Our comprehensive solution is designed to streamline your workload effectively. With our services, you can effortlessly tackle payroll data conversion, ensuring a seamless transition. Importing legacy payroll results and year-end adjustments becomes a breeze, reducing complexity and saving valuable time. We simplify bonus payments and make it hassle-free. Exporting payroll master data is made efficient, and uploading benefits deductions is a straightforward process. Embrace our services to optimize your workflow and enhance productivity." },
+      { title: "IT Consulting Services", imageUrl: "/assets/images/consultant.jpg", short_description: "Great Businesses set the vision for a better future and the right innovation partner will get you there. We are the experts in Technology and can collaborate with your business experts to develop a successful project plan. We help build the roadmap out a Business Strategy by analyzing their current state of IT, present IT trends, and help make decisions regarding their Technology needs and decision making. We will be available 24/7 if you want to try us to make that difference." },
+      { title: "Streamline School Management with SLRIS Edumatic", imageUrl: "/assets/images/stremming.png", short_description: "Discover SLRIS Edumatic's comprehensive suite of education management solutions, designed to enhance school operations and elevate the learning experience. Our Learning Management System (LMS) introduces interactivity and engagement to education, while our robust Assessment tools provide real-time insights into student performance, empowering informed decision-making." },
+   ];
+
    return (
 
       <>
@@ -374,7 +380,7 @@ informed decision-making.`}
             </div>
          </div>
 
-         <SapUi />
+         <SapUi SapUiData={SapUiData} />
          <Testimonial />
          <Brandss />
          <Storyteller />
