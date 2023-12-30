@@ -1,45 +1,57 @@
 import Contact from '@/components/Contact'
+import SapUi from '@/components/SapUi'
 import Image from 'next/image'
 import { BsPlusCircleFill } from 'react-icons/bs'
 import { FaCheck } from 'react-icons/fa'
 
 const page = () => {
 
+  const SapUiData = [
+    { title: "Payroll Data Migration", imageUrl: "/assets/images/home-banner/product-3.png", short_description: "Our SAP UI App offers a powerful solution to the complex task of migrating payroll data. It's a cost-efficient choice, optimizing your resource allocation, both in terms of time and workforce." },
+    {
+      title: "Streamline your Workload", imageUrl: "/assets/images/home-banner/product-4.png", short_description: `Our comprehensive solution is designed to streamline your workload effectively. With our
+              services, you can effortlessly tackle payroll data conversion, ensuring a seamless transition.
+              Importing legacy payroll results and year- end adjustments becomes a breeze, reducing
+              complexity and saving valuable time.We simplify bonus payments and make it hassle - free.
+              Exporting payroll master data is made efficient, and uploading benefits deductions is a
+              straightforward process.Embrace our services to optimize your workflow and enhance
+              productivity.` },
+    {
+      title: "Efficient and Secure Payroll Management", imageUrl: "/assets/images/home-banner/product-3.png", short_description: `Our solution automates data processing, expediting payroll runs and ensuring accuracy while
+              staying compliant with regulations. Advanced security safeguards sensitive payroll data,
+              saving you time and offering peace of mind.` },
+  ];
+
   return (
 
     <>
 
-      <div id='home' className={`md:h-screen md:bg-product_banner md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
+      <div id='home' className={`md:h-screen md:bg-product_banner bg-product_banner_mobile backgroundPosition md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
         <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-6 flex justify-start items-center'>
-          <div className='md:mt-24 mt-8'>
-
+          <div className='md:mt-24 mt-4'>
             <div className='md:ml-10'>
-              <div className='mt-2'>
-                <h1 className='font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
+              <div className=''>
+                <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
                   {"Empowering"}<br />{"Businesses with SAP"}
                 </h1>
-                <p className='md:max-w-[525px] py-4 text-[#202124] m-auto font-inter font-semibold text-[14px]'>
+                <p className='md:max-w-[525px] text-[#202124] m-auto font-inter font-semibold md:text-[14px] text-[12px]'>
                   {"Explore our SAP solutions perfectly crafted to boost efficiency, foster innovation, and drive business growth."}
                 </p>
               </div>
-
-              <button type="button" className="md:ml-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-gradient-to-r from-[#152C4E] via-[#75EAE4] to-[#152C4E] focus:ring-4 font-medium mb-2 capitalize px-6 py-2 text-[14px]">{"HIRE US ->"} </button>
-
+              <button type="button" className="md:ml-1 md:mt-6 mt-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-2 md:text-[14px] text-[10px]">{"HIRE US ->"} </button>
             </div>
-
           </div>
-
         </div>
       </div>
 
-      <section className="pb-12 lg:pt-[5px] lg:pb-[20px] py-10">
+      <section className="pb-12 lg:pt-[5px] lg:pb-[20px]">
         <div className="container mx-auto max-w-5xl">
 
           <div className="w-full px-4 flex flex-wrap justify-center items-center">
 
             <div className="mx-auto mb-2 max-w-[100%] text-center lg:mb-1 mt-1">
               <h2 className="font-semibold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 ml-8 md:mb-[60px] lg:mb-[20px]">Our SAP Services</h2>
-              <p className='max-w-[1000px] text-center py-2 text-gray-600 text-sm md:mt-2'>
+              <p className='md:max-w-[1000px] md:text-center text-justify py-2 text-gray-600 text-sm md:mt-2'>
                 {`Our comprehensive range of SAP services encompasses transformation, integration, and
                 efficiency solutions, providing organizations with the tools and expertise needed to drive
                 business success and innovation."`}
@@ -48,7 +60,7 @@ const page = () => {
 
           </div>
 
-          <div className="-mx-4 grid md:grid-cols-3 grid-cols-2 px-4">
+          <div className="md:-mx-4 grid md:grid-cols-3 grid-cols-2 px-4">
 
             <div className="w-full px-4">
               <div className="mb-8 rounded-[20px] bg-white">
@@ -160,16 +172,16 @@ const page = () => {
 
       <div id='about' className='w-full bg-gradient-to-r from-[#FFFFFF] from-15% via-[#FCFFFE80] via-20% to-[#75EAE440] to-100% text-center py-10' >
 
-        <div className='container mx-auto md:mb-10 flex justify-center md:mt-[60px]'>
+        <div className='container mx-auto md:mb-10 md:flex justify-center md:mt-[60px]'>
 
-          <div className="mx-auto max-w-[100%] text-center">
-            <h2 className="font-semibold text-center md:text-[20px] text-[16px] leading-[44px] md:leading-[52px] md:text-heading-3 md:mt-[70px] md:mb-[50px] lg:mb-[10px]">Key Features</h2>
+          <div className="mx-auto md:max-w-[100%] text-center">
+            <h2 className="font-semibold text-center md:text-[20px] text-[16px] md:leading-[52px] md:text-heading-3 md:mt-[70px] md:mb-[50px] lg:mb-[10px]">Key Features</h2>
             <p className="text-body-color text-xs">
               {`Strong partnership with SAP`}
             </p>
           </div>
 
-          <div className="grid md:grid-cols-5 grid-cols-1 gap-4 px-8">
+          <div className="grid md:grid-cols-5 grid-cols-2 gap-4 px-6 mt-4">
 
             <div className="w-[180px] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden hover:border-[#75EAE2] border-2">
               <div className="p-4">
@@ -267,7 +279,7 @@ const page = () => {
       </div>
 
       {/* Start Sap Implementation */}
-      <div className='container py-12 md:w-full mx-auto ' >
+      <div className='container py-12 md:w-full mx-auto md:block hidden ' >
 
         <div className='m-auto md:max-w-6xl md:grid grid-cols-2'>
 
@@ -398,6 +410,9 @@ const page = () => {
 
       </div>
       {/* End Sap Implementation */}
+
+
+      <SapUi SapUiData={SapUiData} />
 
       <Contact />
     </>
