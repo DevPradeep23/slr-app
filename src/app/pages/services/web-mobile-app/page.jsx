@@ -64,7 +64,6 @@ const page = () => {
             <div id='home' className={`md:h-screen md:bg-web_mobile_app bg-web_mobile_responsive_app backgroundPosition md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
                 <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-6 flex justify-start items-center'>
                     <div className='md:mt-24 mt-4'>
-
                         <div className='md:ml-10'>
                             <div className=''>
                                 <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
@@ -74,13 +73,9 @@ const page = () => {
                                     {"Our proficiency in software development and mobile app development empowers businesses to not just survive, but thrive in today's dynamic digital terrain."}
                                 </p>
                             </div>
-
                             <button type="button" className="md:ml-1 md:mt-6 -mt-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-2 md:text-[14px] text-[10px]">{"SCHEDULE A MEETING ->"} </button>
-
                         </div>
-
                     </div>
-
                 </div>
             </div>
 
