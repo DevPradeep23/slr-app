@@ -63,6 +63,8 @@ module.exports = {
 
         integrated_school:
           "url('../../public/assets/images/home-banner/integrated-school.png')",
+        integrated_school_mobile:
+          "url('../../public/assets/images/home-banner/integrated-school.png')",
 
         school_planner:
           "url('../../public/assets/images/home-banner/school-planner.png')",
@@ -105,6 +107,7 @@ module.exports = {
         digital_marketing_mobile: "100% 0%",
         web_mobile_responsive_app: "100% 0%",
         product_banner_mobile: "100% 0%",
+        integrated_school_mobile:"100% 0%",
       },
     },
     fontFamily: {
