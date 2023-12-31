@@ -28,8 +28,11 @@ const Navbar = () => {
         setShadow(false);
       }
     };
+    return () => {
     window.addEventListener('scroll', handleShadow);
+    };
   }, []);
+
 
   return (
     <div className={` bg-navbarbanner ${shadow ? 'fixed w-full h-16 shadow-xl z-[100] ease-in-out duration-300' : 'fixed w-full h-16 z-[100]'}`}
@@ -38,7 +41,7 @@ const Navbar = () => {
         <Link href='/'>
           <Image
             src={NavLogo}
-            alt='/'
+            alt='slris'
             width='1000'
             height='1000'
             className='cursor-pointer w-44'
@@ -111,7 +114,7 @@ const Navbar = () => {
           : 'fixed left-[-100%] top-0 p-10 bottom-0 ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Link href='/'>
+              <Link onClick={() => { setNav(!nav) }} href='/'>
                 <Image src={NavLogo} width='87' height='35' alt='/' />
               </Link>
               <div onClick={handleNav}
@@ -128,7 +131,7 @@ const Navbar = () => {
                 MenuList?.map((list, i) => (
                   <div key={list.name} className=''>
                     <li className='py-4 text-md flex justify-between'>
-                      <Link href={list?.link}>
+                      <Link onClick={() => {setNav(!nav)}} href={list?.link}>
                         {list?.name}
                       </Link>
 
@@ -145,7 +148,7 @@ const Navbar = () => {
                         <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
                           {list.submenu.map((subMenuItem, idx) => (
                             <li className='ease-in-out duration-300' key={subMenuItem.name} onClick={() => setSubMenuOpen(subMenuOpen == subMenuItem.name ? !subMenuOpen : subMenuOpen)}>
-                              <Link href={subMenuItem.link}
+                              <Link onClick={() => { setNav(!nav) }} href={subMenuItem.link}
                                 className={` ${list?.margin && "my-2"} ease-in-out duration-300 block ml-4 text-md py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white`}
                               >
                                 {subMenuItem.name}
@@ -187,22 +190,6 @@ const Navbar = () => {
                   <FaGithub />
                 </div>
 
-                <Link href='/#contact'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href='/resume'>
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
-                  >
-                    <BsFillPersonLinesFill />
-                  </div>
-                </Link>
               </div>
             </div>
           </div>
