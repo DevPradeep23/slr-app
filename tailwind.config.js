@@ -37,6 +37,8 @@ module.exports = {
 
         classroom_management:
           "url('../../public/assets/images/home-banner/classroom-management.png')",
+        classroom_management_mobile:
+          "url('../../public/assets/images/home-banner/classroom-management.png')",
 
         choose_excellence:
           "url('../../public/assets/images/home-banner/choose-chalaning.png')",
@@ -54,11 +56,17 @@ module.exports = {
 
         fee_management:
           "url('../../public/assets/images/home-banner/fee-management.png')",
+        fee_management_mobile:
+          "url('../../public/assets/images/home-banner/fee-management.png')",
 
         admission_management:
           "url('../../public/assets/images/home-banner/admission-management.png')",
+        admission_management_mobile:
+          "url('../../public/assets/images/home-banner/admission-management.png')",
 
         attendance_management:
+          "url('../../public/assets/images/home-banner/attendance-management.png')",
+        attendance_management_mobile:
           "url('../../public/assets/images/home-banner/attendance-management.png')",
 
         integrated_school:
@@ -68,23 +76,37 @@ module.exports = {
 
         school_planner:
           "url('../../public/assets/images/home-banner/school-planner.png')",
+        school_planner_mobile:
+          "url('../../public/assets/images/home-banner/school-planner.png')",
 
         role_permission:
+          "url('../../public/assets/images/home-banner/role-permission.png')",
+        role_permission_mobile:
           "url('../../public/assets/images/home-banner/role-permission.png')",
 
         student_report:
           "url('../../public/assets/images/home-banner/student-report.png')",
+        student_report_mobile:
+          "url('../../public/assets/images/home-banner/student-report.png')",
 
         practice_question:
+          "url('../../public/assets/images/home-banner/practice-question.png')",
+        practice_question_mobile:
           "url('../../public/assets/images/home-banner/practice-question.png')",
 
         communication_module:
           "url('../../public/assets/images/home-banner/communication-module.png')",
+        communication_module_mobile:
+          "url('../../public/assets/images/home-banner/communication-module.png')",
 
         private_chat:
           "url('../../public/assets/images/home-banner/private-chat.png')",
+        private_chat_mobile:
+          "url('../../public/assets/images/home-banner/private-chat.png')",
 
         website_builder:
+          "url('../../public/assets/images/home-banner/website-builder.png')",
+        website_builder_mobile:
           "url('../../public/assets/images/home-banner/website-builder.png')",
 
         web_mobile_app:
@@ -107,7 +129,18 @@ module.exports = {
         digital_marketing_mobile: "100% 0%",
         web_mobile_responsive_app: "100% 0%",
         product_banner_mobile: "100% 0%",
-        integrated_school_mobile:"100% 0%",
+        integrated_school_mobile: "100% 0%",
+        classroom_management_mobile: "100% 0%",
+        role_permission_mobile: "100% 0%",
+        fee_management_mobile: "100% 0%",
+        attendance_management_mobile: "100% 0%",
+        admission_management_mobile: "100% 0%",
+        school_planner_mobile: "100% 0%",
+        practice_question_mobile: "100% 0%",
+        student_report_mobile: "100% 0%",
+        communication_module_mobile: "100% 0%",
+        website_builder_mobile: "100% 0%",
+        private_chat_mobile: "100% 0%",
       },
     },
     fontFamily: {
