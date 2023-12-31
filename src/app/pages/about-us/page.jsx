@@ -155,15 +155,15 @@ export default function about() {
                      </div>
                   </div>
 
-                  <div className='mx-2 grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 place-items-center md:gap-8 gap-4 md:mb-10 '>
+                  <div className='mx-2 grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 place-items-center md:gap-8 gap-2 md:mb-10 '>
                      {portfolioSpectrum && portfolioSpectrum.map((list, index) => (
-                        <div key={index} className='bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:border-[#75EAE2] border-2'>
+                        <div key={index} className='bg-white px-1 h-60 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:border-[#75EAE2] border-2'>
                            <div className='m-auto'>
-                              <Image width={"1000"} height={"1000"} src={list.imageUrl} className='w-full md:h-36' alt='/' />
+                              <Image width={"1000"} height={"1000"} src={list.imageUrl} className='w-full md:h-36 h-24' alt='/' />
                            </div>
-                           <div className='flex flex-col my-4'>
+                           <div className='flex flex-col'>
                               <h2 className='text-left md:text-[22px] text-[16px]'>{list.title}</h2>
-                              <p className='my-2 text-sm text-left'>{list.description}</p>
+                              <p className='text-sm text-left'>{list.description.substring(0, 100)}</p>
                            </div>
                            {/* <Link href={`pages/blogs/${list.slug}`} className='flex text-sm'>Read<FaArrowRight className='mt-1 ml-2' /></Link> */}
                         </div>
