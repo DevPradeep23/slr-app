@@ -1,5 +1,6 @@
 import Contact from '@/components/Contact'
 import Image from 'next/image'
+import Link from 'next/link'
 import { BsPlusCircleFill } from 'react-icons/bs'
 import { FaCheck } from 'react-icons/fa'
 
@@ -17,21 +18,25 @@ const page = () => {
 
     <>
 
-      <div id='home' className={`md:h-screen md:bg-classroom_management bg-classroom_management backgroundPosition md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
+      <div id='home' className={`md:h-screen md:bg-classroom_management bg-classroom_management backgroundPosition md:w-full h-[280px] bg-cover bg-center bg-no-repeat`} >
         <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-4 flex justify-start items-center'>
-          <div className='md:mt-24 mt-8'>
+          <div className='md:mt-20 mt-6'>
 
             <div className='md:ml-10'>
-              <div className='mt-2'>
-                <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-4 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
+              <div className='md:mb-10 mb-5'>
+                <h1 className='font-semibold md:text-6xl text-xl md:mb-2 mt-10 leading-none text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
                   {"Classroom Management"}<br />{"Software"}
                 </h1>
-                <p className='md:max-w-[620px] text-[#202124] m-auto font-inter font-semibold md:text-[14px] text-[12px]'>
+                <p className='md:block hidden md:max-w-[620px] text-[#202124] mx-auto mt-2 font-inter md:font-semibold md:text-[14px] text-[12px]'>
                   {"Management of the classroom has never been easier - use Teachmint’s Classroom Management System to fundamentally transform the classroom!"}
+                </p>
+                <p className='md:hidden block md:max-w-[620px] text-[#202124] mx-auto mt-2 font-inter md:font-semibold md:text-[14px] text-[12px]'>
+                  {"Management of the classroom has"} <br /> {"never been easier - use Teachmint’s"} <br /> {"Classroom Management System to"} <br /> {"fundamentally transform the classroom!"}
                 </p>
               </div>
 
-              <button type="button" className="md:ml-1 md:mt-6 mt-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-2 md:text-[14px] text-[10px]">{"GET STARTED ->"} </button>
+              <Link href="/pages/get-in-touch" className="md:ml-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-2 md:text-[14px] text-[10px]">{"GET STARTED ->"} </Link>
+
             </div>
           </div>
         </div>
