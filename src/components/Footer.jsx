@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <>
             <div className='w-full bg-white text-gray-900 px-2 border-t-[1px] border-gray-400'>
-                <div className='md:max-w-[1240px] mx-auto md:grid md:grid-cols-3 grid-cols-1 justify-between py-4'>
+                <div className='md:max-w-[1240px] mx-auto md:grid md:grid-cols-2 grid-cols-1 justify-between mt-10'>
 
                     <div className='mt-5'>
                         <Link href='/'>
@@ -54,61 +54,56 @@ const Footer = () => {
 
                     </div>
 
-                    <div className='mt-5'>
-                        <h6 className='font-bold uppercase'>{"Pages"}</h6>
-                        <ul className='text-[12px]'>
-                            <li className='py-2'>
-                                <Link href="#" >
-                                    {"Home"}
-                                </Link>
-                            </li>
-                            <li className='py-1'>
-                                <Link href="#" >
-                                    {"About"}
-                                </Link>
-                            </li>
-                            <li className='py-1'>
-                                <Link href="#" >
-                                    {"Services"}
-                                </Link>
-                            </li>
-                            <li className='py-1'>
-                                <Link href="#" >
-                                    {"Products"}
-                                </Link>
-                            </li>
-                            <li className='py-1'>
-                                <Link href="#" >
-                                    {"Clients"}
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+                    <div className='md:mt-3 mt-4'>
+                        <h6 className='font-bold uppercase text-center md:mb-2'>{"Quick Links"}</h6>
+                        <div className='flex justify-between mx-2'>
+                            <div className=''>
+                                <ul className='text-[12px]'>
+                                    <li className='py-2'>
+                                        <Link href="/" >
+                                            {"Home"}
+                                        </Link>
+                                    </li>
+                                    <li className='py-1'>
+                                        <Link href="/pages/about-us" >
+                                            {"About"}
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
 
-                    <div className='mt-5'>
-                        <h6 className='font-bold uppercase'>{"Services"}</h6>
-                        <ul className='text-[12px]'>
-                            <li className='py-2'>
-                                <Link href="#" >
-                                    {"Digital Marketing"}
-                                </Link>
-                            </li>
-                            <li className='py-1'>
-                                <Link href="#" >
-                                    {"Web and App Development"}
-                                </Link>
-                            </li>
-                            <li className='py-1'>
-                                <Link href="#" >
-                                    {"Software Development"}
-                                </Link>
-                            </li>
-                            <li className='py-1'>
-                                <Link href="#" >
-                                    {"Staffing Management"}
-                                </Link>
-                            </li>
-                        </ul>
+                            <div className=''>
+                                <ul className='text-[12px]'>
+                                    <li className='py-2'>
+                                        <Link href="/pages/services/digital-marketing" >
+                                            {"Digital Marketing"}
+                                        </Link>
+                                    </li>
+                                    <li className='py-1'>
+                                        <Link href="/pages/services/web-mobile-app" >
+                                            {"Web and App Development"}
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className=''>
+                                <ul className='text-[12px]'>
+                                    <li className='py-2'>
+                                        <Link href="/pages/products" >
+                                            {"SAP Tool"}
+                                        </Link>
+                                    </li>
+                                    <li className='py-1'>
+                                        <Link href="/pages/products/integrated-school" >
+                                            {"Edumatic"}
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
                     </div>
 
                 </div>
@@ -124,7 +119,7 @@ const Footer = () => {
                     </Link>
                 </div>
 
-                <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center border-t-[1px] border-gray-400 text-gray-500'>
+                <div className='flex flex-col max-w-[1240px] px-2 mb-2 mx-auto justify-between sm:flex-row text-center border-t-[1px] border-gray-400 text-gray-500'>
                     <p className='py-4 text-[12px]'>&copy; Copyright 2020 SLRI Solutions, LLC. All Rights Reserved</p>
                     <div className='flex justify-between pt-4 text-[12px] gap-4'>
                         <p>Terms and Conditions </p>

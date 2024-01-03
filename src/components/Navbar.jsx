@@ -110,7 +110,7 @@ const Navbar = () => {
       {/* Overlay */}
       <div className={nav ? 'md:hidden fixed left-0 top-0 bottom-0 w-full bg-black/70' : ''}>
         {/* Side Drawer Menu */}
-        <div className={nav ? 'fixed left-0 top-0 bottom-0 w-[75%] sm:w-[60%] md:w-[45%] bg-white p-10 ease-in duration-500'
+        <div className={nav ? 'fixed left-0 top-0 bottom-0 w-[75%] sm:w-[60%] md:w-[45%] bg-white p-6 ease-in duration-500'
           : 'fixed left-[-100%] top-0 p-10 bottom-0 ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
@@ -125,22 +125,22 @@ const Navbar = () => {
             </div>
 
           </div>
-          <div className='py-4 flex flex-col'>
+          <div className='py-2 flex flex-col'>
             <ul className='capitalize'>
               {
                 MenuList?.map((list, i) => (
                   <div key={list.name} className=''>
-                    <li className='py-4 text-md flex justify-between'>
-                      <Link onClick={() => {setNav(!nav)}} href={list?.link}>
+                    <li className='py-2 text-md flex justify-between'>
+                      <Link onClick={() => { list.name === "Home" ? setNav(!nav) : list.name === "About" ? setNav(!nav) : setSubMenuOpen(subMenuOpen !== list.name ? list.name : "") }} href={list?.link}>
                         {list?.name}
                       </Link>
 
-                      {list.submenu && (
+                      {/* {list.submenu && (
                         <span onClick={() => setSubMenuOpen(subMenuOpen !== list.name ? list.name : "")}
                           className={`${subMenuOpen && subMenuOpen === list.name && list.submenu ? 'rotate-180' : ''} duration-200 text-xl md:mt-1 md:ml-0 group-hover:rotate-180 group-hover:-mt-2`}>
                           <RiArrowDropDownFill name="chevron-down"></RiArrowDropDownFill>
                         </span>
-                      )}
+                      )} */}
                     </li>
 
                     {subMenuOpen && subMenuOpen === list.name && list.submenu && (

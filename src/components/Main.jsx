@@ -10,7 +10,7 @@ const Main = ({ bannerBg, bgTitle, bgTitle1, bgTitle2, content, type, className,
     <>
 
       <div id='home' className={`w-full md:bg-no-repeat bg-cover text-center ` + className} >
-        <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-6 flex justify-start items-center'>
+        <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-2 pt-8 flex justify-start items-center'>
           <div className='md:mt-24 mt-8'>
             {/* <p className='uppercase text-sm tracking-widest text-gray-600'>
             LET&#39;S BUILD SOMETHING TOGETHER
@@ -18,13 +18,16 @@ const Main = ({ bannerBg, bgTitle, bgTitle1, bgTitle2, content, type, className,
             {type && type == 1 || type == 2 ?
             
             <div className='md:ml-10'>
-                <div className='md:mt-2 mt-5'>
-                  <h2 className='text-[#152C4E] md:text-4xl text-2xl'>
-                    {bgTitle} <span className='text-[#152C4E]'> {bgTitle1} </span>
+                <div className='md:mt-2 mt-5 text-left md:text-center'>
+                  <h2 className='text-[#152C4E] md:text-4xl text-[14px]'>
+                    {"Development,"} <span className='text-[#152C4E]'> {"Staffing"} </span>
                   </h2>
-                  <h2 className='md:py-2 text-[#152C4E] md:ml-48 md:text-4xl text-[18px]'>{bgTitle2}</h2>
-                  <p className='md:py-4 text-[#202124] sm:max-w-[70%] m-auto font-inter font-semibold text-[16px] md:text-[14px]'>
-                    {content}
+                  <h2 className='md:py-2 text-[#152C4E] md:ml-48 md:text-4xl -mt-3 md:mt-2 text-[14px]'>{"and Marketing"}</h2>
+                  <p className='md:hidden block md:py-4 break-before-column text-[#202124] sm:max-w-[70%] mx-auto font-inter font-semibold text-xs md:text-[14px]'>
+                    Transform Your Vision into <br /> Reality with Our Expertise <br/> and Exceptional Services
+                  </p>
+                  <p className='md:block hidden md:py-4 text-[#202124] sm:max-w-[70%] mx-auto font-inter md:font-semibold text-xs md:text-[14px]'>
+                    Transform Your Vision into Reality with Our Expertise and Exceptional Services
                   </p>
                 </div>
 
