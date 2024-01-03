@@ -1,5 +1,6 @@
 import Contact from '@/components/Contact'
 import Image from 'next/image'
+import Link from 'next/link'
 import { BsPlusCircleFill } from 'react-icons/bs'
 import { FaCheck } from 'react-icons/fa'
 
@@ -21,16 +22,24 @@ const page = () => {
           <div className='md:mt-24 mt-8'>
 
             <div className='md:ml-10'>
-              <div className='mt-2'>
-                <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-4 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
+              <div className='md:mb-10'>
+                <h1 className='font-semibold md:text-6xl text-xl leading-none md:mb-2 mt-4 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
                   {"School yearly"}<br />{"calendar Planner"}
                 </h1>
-                <p className='md:max-w-[620px] py-2 text-[#202124] m-auto font-inter font-semibold md:text-[14px] text-[12px]'>
+                <p className='md:block hidden md:max-w-[600px] py-2 text-[#202124] mx-auto font-inter md:font-semibold md:text-[14px] text-[12px]'>
                   {"Make school fee management effective, efficient, and easy with Teachmint’s Fee Management Software. Automate and simplify the entire edifice of the fee management process."}
+                </p>
+
+                <p className='md:hidden block md:max-w-[600px] py-2 text-[#202124] mx-auto font-inter md:font-semibold md:text-[14px] text-[12px]'>
+                  {"Make school fee management effective,"}<br />
+                  {"efficient, and easy with Teachmint’s Fee"}<br />
+                  {"Management Software. Automate and"}<br />
+                  {"simplify the entire edifice of the"}<br />
+                  {"fee management process."}
                 </p>
               </div>
 
-              <button type="button" className="md:ml-1 md:mt-6 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-2 md:text-[14px] text-[10px]">{"GET STARTED ->"} </button>
+              <Link href="/pages/get-in-touch" className="md:ml-1 rounded-full hover:scale-105 ease-in duration-100 text-white items-start bg-[#152C4E] focus:ring-4 font-medium mb-2 capitalize dark:focus:ring-[#152C4E] md:px-6 md:py-2 px-4 py-2 md:text-[14px] text-[10px]">{"GET STARTED ->"} </Link>
 
             </div>
 
