@@ -19,14 +19,14 @@ const Main = ({ bannerBg, bgTitle, bgTitle1, bgTitle2, content, type, className,
             
             <div className='md:ml-10'>
                 <div className='md:mt-2 mt-5 text-left md:text-center'>
-                  <h2 className='text-[#152C4E] md:text-4xl text-[14px]'>
+                  <h2 className='text-[#152C4E] md:text-4xl text-[16px]'>
                     {"Development,"} <span className='text-[#152C4E]'> {"Staffing"} </span>
                   </h2>
-                  <h2 className='md:py-2 text-[#152C4E] md:ml-48 md:text-4xl -mt-3 md:mt-2 text-[14px]'>{"and Marketing"}</h2>
-                  <p className='md:hidden block md:py-4 break-before-column text-[#202124] sm:max-w-[70%] mx-auto font-inter font-semibold text-xs md:text-[14px]'>
+                  <h2 className='md:py-2 text-[#152C4E] md:ml-48 md:text-4xl -mt-3 md:mt-2 text-[16px]'>{"and Marketing"}</h2>
+                  <p className='md:hidden block md:py-4 text-[#202124] sm:max-w-[70%] mx-auto md:font-semibold text-xs md:text-[14px]'>
                     Transform Your Vision into <br /> Reality with Our Expertise <br/> and Exceptional Services
                   </p>
-                  <p className='md:block hidden md:py-4 text-[#202124] sm:max-w-[70%] mx-auto font-inter md:font-semibold text-xs md:text-[14px]'>
+                  <p className='md:block hidden md:py-4 text-[#202124] sm:max-w-[70%] mx-auto md:font-semibold text-xs md:text-[14px]'>
                     Transform Your Vision into Reality with Our Expertise and Exceptional Services
                   </p>
                 </div>
