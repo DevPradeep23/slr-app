@@ -9,12 +9,12 @@ const page = () => {
         <>
 
             <div id='home' className={`md:h-screen md:bg-digital_marketing bg-digital_marketing_mobile backgroundPosition md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
-                <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-4 flex justify-start items-center'>
+                <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-2 flex justify-start items-center'>
                     
                     <div className='md:mt-12 mt-8'>
                         <div className='md:ml-10'>
                             <div className='md:mt-20 md:mb-10'>
-                                <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
+                                <h1 className='font-semibold md:text-6xl text-xl leading-none md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
                                     {"Digital Marketing"}<br />{"Solutions"}
                                 </h1>
                                 <p className='hidden md:block md:max-w-[460px] py-2 text-[#202124] m-auto font-inter md:font-semibold md:text-[14px] text-[12px]'>
