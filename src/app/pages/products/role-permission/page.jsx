@@ -30,7 +30,11 @@ const page = () => {
                   {"Define access control for various administrative roles, create custom roles with the respective permissions & delegate responsibilities accordingly."}
                 </p>
                 <p className='md:hidden block md:max-w-[620px] text-[#202124] m-auto font-inter md:font-semibold md:text-[14px] text-[12px] mt-1'>
-                  {"Define access control"} <br /> {"for various administrative"} <br /> {"roles, create custom roles with the respective permissions &"} <br /> {"delegate responsibilities accordingly."}
+                  {"Define access control"} <br />
+                   {"for various administrative"} <br />
+                    {"roles, create custom roles with"} <br />
+                     {"the respective permissions &"} <br />
+                      {"delegate responsibilities accordingly."}
                 </p>
               </div>
 
