@@ -28,8 +28,8 @@ const page = () => {
     <>
 
       <div id='home' className={`md:h-screen md:bg-product_banner bg-product_banner_mobile backgroundPosition md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
-        <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-4 flex justify-start items-center'>
-          <div className='md:mt-24 mt-4'>
+        <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-2 flex justify-start items-center'>
+          <div className='md:mt-24 mt-5'>
             <div className='md:ml-10'>
               <div className='md:mb-10 mb-4'>
                 <h1 className='font-semibold md:text-6xl leading-none text-xl md:mb-2 mt-10 md:mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
