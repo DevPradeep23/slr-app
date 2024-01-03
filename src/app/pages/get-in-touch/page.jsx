@@ -7,12 +7,12 @@ const page = () => {
        
 <>
 
-            <div id='contact' className={`h-screen`}>
-                <div className='max-w-4xl w-full mx-auto'>
+            <div id='contact' className={`md:h-screen`}>
+                <div className='md:max-w-4xl w-full md:mx-auto mx-auto'>
                     
-                    <div className='md:py-32'>
+                    <div className='md:py-32 py-32'>
 
-                        <h2 className='font-semibold text-center md:mt-10 text-4xl text-[#152C4E] justify-center'>In a rush? <br />
+                        <h2 className='font-semibold text-center md:mt-10 md:text-4xl text-2xl mb-5 text-[#152C4E] justify-center'>In a rush? 
                             Get a call from our
                             industry experts
                         </h2>
