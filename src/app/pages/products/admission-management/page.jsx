@@ -22,7 +22,7 @@ const page = () => {
 
       <div id='home' className={`md:h-screen md:bg-admission_management bg-admission_management_mobile backgroundPosition md:w-full h-[250px] bg-cover bg-center bg-no-repeat`} >
         <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-2 flex justify-start items-center'>
-          <div className='md:mt-24 mt-8'>
+          <div className='md:mt-24 mt-10'>
 
             <div className='md:ml-10'>
               <div className='md:mb-10'>
