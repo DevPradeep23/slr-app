@@ -63,8 +63,8 @@ const page = () => {
         <>
 
             <div id='home' className={`md:h-screen md:bg-web_mobile_app bg-web_mobile_responsive_app backgroundPosition md:w-full h-[260px] bg-cover bg-center bg-no-repeat`} >
-                <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-4 flex justify-start items-center'>
-                    <div className='md:mt-24 mt-4'>
+                <div className='md:max-w-[1240px] w-full mx-auto md:p-16 p-2 flex justify-start items-center'>
+                    <div className='md:mt-24 mt-7'>
                         <div className='md:ml-10'>
                             <div className='md:mb-10'>
                                 <h1 className='md:hidden block font-semibold md:text-6xl leading-none text-xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
@@ -74,10 +74,10 @@ const page = () => {
                                     {"Web and Mobile app"}<br />{"Development services"}
                                 </h1>
 
-                                <p className='md:block hidden md:max-w-[550px] py-2 text-[#202124] m-auto font-inter font-semibold md:text-[14px] text-[12px]'>
+                                <p className='md:block hidden md:max-w-[550px] py-1 text-[#202124] m-auto font-inter font-semibold md:text-[14px] text-[12px]'>
                                     {"Our proficiency in software development and mobile app development empowers businesses to not just survive, but thrive in today's dynamic digital terrain."}
                                 </p>
-                                <p className='md:hidden block md:max-w-[550px] py-2 text-[#202124] m-auto font-inter md:font-semibold md:text-[14px] text-[12px]'>
+                                <p className='md:hidden block md:max-w-[550px] py-1 text-[#202124] m-auto font-inter md:font-semibold md:text-[14px] text-[12px]'>
                                     {"Our proficiency in software"} <br /> {"development and mobile app"} <br /> {"development empowers businesses"} <br /> {"to not just survive, but thrive in today's dynamic digital terrain."}
                                 </p>
                             </div>
