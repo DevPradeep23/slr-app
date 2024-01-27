@@ -87,7 +87,7 @@ informed decision-making.`}
             <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">Why Clients Trust Our Expertise and
               Choose to Partner with Us</h2>
             <h6 className='mb-2 text-[#F05108] text-justify'>
-              {`SLRIS - Where Trust and Partnership Meet Excellence`}
+              {`Techno Trek - Where Trust and Partnership Meet Excellence`}
             </h6>
             <p className='text-[#152C4E] text-justify text-[12px] md:text-[14px] mb-2'>
               {`Embrace the confidence in our proven
