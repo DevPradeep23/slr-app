@@ -12,7 +12,7 @@ export default function about() {
 
    const visionMission = [
       {
-         title: "Our Vision", description: "At SLRIS, our vision is to be at the forefront of IT innovation, shaping a future where technology enhances every aspect of life and business."
+         title: "Our Vision", description: "At Techno Trek, our vision is to be at the forefront of IT innovation, shaping a future where technology enhances every aspect of life and business."
       },
       {
          title: "Our Mission", description: "Our mission is to deliver exceptional IT and engineering solutions that empower businesses to reach their full potential, overcome challenges, and embrace digital transformation."
@@ -54,14 +54,14 @@ export default function about() {
                   <div className='md:ml-10'>
                      <div className='md:mt-20 md:mb-10'>
                         <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
-                           {"Welcome to SLRIS,"}<br />
+                           {"Techno Trek Welcomes ,"}<br />
                         </h1>
 
                         <TypeAnimation className="text-2xl md:text-3xl font-[Raleway] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]"
                            // Same String at the start will only be typed once, initially
                            sequence={[
                               500, // wait 1s before replacing "Mice" with "Hamsters"
-                              'Where Expertise Meets',
+                              'You,Where Expertise Meets',
                               500,
                               'Innovation',
                            ]}
