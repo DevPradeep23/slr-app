@@ -59,9 +59,9 @@ const Storyteller = () => {
 
                   <div className='mb-8 px-12'>
                      <div className='content-start md:mt-4'>
-                        <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4 mt-10">{"Streamline School Management with SLRIS Edumatic"}</h2>
+                        <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4 mt-10">{"Streamline School Management with Techno Trek Edumatic"}</h2>
                         <p className='md:py-2 py-2 text-gray-600 text-justify md:text-sm'>
-                           {`Discover SLRIS Edumatic's comprehensive suite of education management solutions,
+                           {`Discover Techno Trek Edumatic's comprehensive suite of education management solutions,
 designed to enhance school operations and elevate the learning experience. Our Learning
 Management System (LMS) introduces interactivity and engagement to education, while our
 robust Assessment tools provide real-time insights into student performance, empowering
