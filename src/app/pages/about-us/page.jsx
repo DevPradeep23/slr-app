@@ -53,15 +53,15 @@ export default function about() {
 
                   <div className='md:ml-10'>
                      <div className='md:mt-20 md:mb-10'>
-                        <h1 className='font-semibold md:text-6xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
-                           {"Techno Trek Welcomes ,"}<br />
+                        <h1 className='font-semibold md:text-4xl text-2xl md:mb-2 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]'>
+                           {"Techno Trek Welcomes You"}<br />
                         </h1>
 
                         <TypeAnimation className="text-2xl md:text-3xl font-[Raleway] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#152C4E] to-[#75EAE4]"
                            // Same String at the start will only be typed once, initially
                            sequence={[
                               500, // wait 1s before replacing "Mice" with "Hamsters"
-                              'You,Where Expertise Meets',
+                              'Where Expertise Meets',
                               500,
                               'Innovation',
                            ]}
