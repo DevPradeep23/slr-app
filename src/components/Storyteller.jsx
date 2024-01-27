@@ -86,7 +86,7 @@ informed decision-making.`}
           <div className='md:max-w-[500px]'>
             <h2 className="font-bold md:text-2xl text-2xl text-black text-left py-4">Why Clients Trust Our Expertise and
               Choose to Partner with Us</h2>
-            <h6 className='mb-2 text-[#F05108] text-justify'>
+            <h6 className='mb-2 text-[#000000] text-justify'>
               {`Techno Trek - Where Trust and Partnership Meet Excellence`}
             </h6>
             <p className='text-[#152C4E] text-justify text-[12px] md:text-[14px] mb-2'>
