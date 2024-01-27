@@ -1,5 +1,7 @@
 
 "use client";
+
+"use client";
 import Image from 'next/image'
 import Link from 'next/link'
 import { BsPlusCircleFill } from 'react-icons/bs';
@@ -28,7 +30,7 @@ export default function about() {
          title: "Expert Staffing", imageUrl: "/assets/images/home-banner/digital-serivces.png", description: `Providing skilled staffing solutions to support project needs and drive organizational success.`
       },
       {
-         title: "SAP Solutions", imageUrl: "/assets/images/home-banner/sap.png", description: `Leveraging advanced SAP tools for efficient business process management and analytics.`
+         title: "SAP Solutions", imageUrl: "/assets/images/home-banner/services-4.png", description: `Leveraging advanced SAP tools for efficient business process management and analytics.`
       },
       {
          title: "Web Development", imageUrl: "/assets/images/home-banner/web-development.png", description: "Crafting innovative web applications for improved user experience and digital interaction."
@@ -125,7 +127,7 @@ export default function about() {
                         <div key={index} className='hover:border-[#75EAE2] border-2 relative w-80 h-60 rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-50 card'>
                            <div className='absolute inset-0 w-full h-full flex justify-center items-center transition-all duration-100 delay-200 z-20 hover:opacity-0 hover:border-[#75EAE2] border-2 bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in'>
                               <div className='flex flex-col items-center justify-center my-4'>
-                                 <h3 className='font-semibold text-left text-4xl text-[#F05108] justify-center'>{list.title}</h3>
+                                 <h3 className='font-semibold text-left text-4xl text-[#75EAE4] justify-center'>{list.title}</h3>
                               </div>
                            </div>
                            <div className='absolute inset-0 w-full h-full flex justify-center items-center transition-all z-10 card-back hover:border-[#75EAE2] border-2 bg-white p-4 shadow-xl rounded-xl hover:scale-105 ease-in'>
@@ -191,22 +193,22 @@ export default function about() {
 
                      <div className='hover:border-[#75EAE2] border-2 p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='inset-0 h-auto z-0'>
-                           <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/blog-3.png"} className='w-full' alt='/' />
-                           <h3 className='md:text-sm text-center'>{"Bessie Cooper"}</h3>
+                           <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/blog-3.jpg"} className='w-full' alt='/' />
+                           <h3 className='md:text-sm text-center'>{"Shravan Yeluvaka"}</h3>
                         </div>
                      </div>
 
                      <div className='hover:border-[#75EAE2] border-2 p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='m-auto'>
-                           <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/blog-1.png"} className='w-full' alt='/' />
-                           <h3 className='md:text-sm text-center'>{"Bessie Cooper"}</h3>
+                           <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/blog-1.svg"} className='w-full' alt='/' />
+                           <h3 className='md:text-sm text-center'>{"Harika Rathode"}</h3>
                         </div>
                      </div>
 
                      <div className='hover:border-[#75EAE2] border-2 p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='m-auto'>
-                           <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/blog-2.png"} className='w-full' alt='/' />
-                           <h3 className='md:text-sm text-center'>{"Bessie Cooper"}</h3>
+                           <Image width={"1000"} height={"1000"} src={"../../assets/images/home-banner/blog-2.svg"} className='w-full' alt='/' />
+                           <h3 className='md:text-sm text-center'>{"Manohar Palukuri"}</h3>
                         </div>
                      </div>
 
