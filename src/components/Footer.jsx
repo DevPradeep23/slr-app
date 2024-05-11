@@ -49,7 +49,7 @@ const Footer = () => {
                             </div>
                             <div className='flex md:mt-1'>
                                 <AiOutlineMail />
-                                <p className='text-[12px] md:ml-1'>sales.in@technotrek.com </p>
+                                <p className='text-[12px] md:ml-1'>sales.in@technotrek.net </p>
                             </div>
                         </div>
 
@@ -121,7 +121,7 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col max-w-[1240px] px-2 mb-2 mx-auto justify-between sm:flex-row text-center border-t-[1px] border-gray-400 text-gray-500'>
-                    <p className='py-4 text-[12px]'>&copy; Copyright 2024 Techno Treck, All Rights Reserved</p>
+                    <p className='py-4 text-[12px]'>&copy; Copyright 2024 Techno Trek, All Rights Reserved</p>
                     <div className='flex justify-between pt-4 text-[12px] gap-4'>
                         <p>Terms and Conditions </p>
                         <p>Privacy Policy </p>
