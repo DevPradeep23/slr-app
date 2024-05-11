@@ -166,7 +166,7 @@ const Navbar = () => {
 
             <div className='border-t border-gray-800 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                #60, 31st Main, Lake Shore Road,<br /> BTM 2nd Stage, Bangalore - 560076 <br /> create@slyds.com
+                Techno Trek Pvt Ltd Hyderabad,<br /> India <br /> sales.in@technotrek.net
               </p>
 
               <div className='flex gap-4'>
