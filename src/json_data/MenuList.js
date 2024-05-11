@@ -1,6 +1,6 @@
 export const MenuList = [
   { name: "Home", link: "/", icon: "" },
-  { name: "About", link: "/about-us", icon: "" },
+  { name: "About", link: "/pages/about-us", icon: "" },
   {
     name: "Services",
     link: "#",
@@ -9,16 +9,17 @@ export const MenuList = [
     submenu: [
       {
         name: "Digital Marketing",
-        link: "/services/digital-marketing",
+        link: "/pages/services/digital-marketing",
         icon: "",
       },
       {
         name: "Web and App Development",
-        link: "/services/web-mobile-app",
+        link: "/pages/services/web-mobile-app",
         icon: "",
       },
     ],
   },
+
   {
     name: "Products",
     link: "#",
@@ -27,14 +28,17 @@ export const MenuList = [
     submenu: [
       {
         name: "SAP Tool",
-        link: "/products/sap-tool",
+        link: "/pages/products",
         icon: "",
       },
       {
         name: "Edumatic",
-        link: "/products/integrated-school",
+        link: "/pages/products/integrated-school",
         icon: "",
       },
     ],
   },
+  // { name: "Contact Us", link: "/", icon: "" },
+  // { name: "Clients", link: "/", icon: "" },
+  // { name: "schedule a meeting", link: "/", icon: "", margin: false },
 ];
